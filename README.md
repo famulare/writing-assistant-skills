@@ -32,6 +32,10 @@ you bring your own voice card, and the skills run against your agent.
 - `hardening/` — redacted examples of real hardening passes plus a short rider
   (`hardening/README.md`) explaining how the skills were empirically improved over
   successive sessions. See below.
+- `demo/` — a full end-to-end run of the whole stack on one lightly-redacted source:
+  the same argument transported into a formal scientific report and a casual blog post,
+  with independent reviews, claim-hardening, and a decision log. Start at
+  `demo/README.md`. See below.
 - `voice/` — where **you** build your own voice card (see `voice/README.md` and
   `references/voice-card-template.md`).
 
@@ -96,6 +100,19 @@ characterization of the author's hand-edit "transport operator" — as worked
 examples of the method. `hardening/README.md` is a short rider explaining the loop.
 These are lightly redacted to remove personal names and organization-internal
 detail; the domain (tuberculosis) content is retained as the concrete example it is.
+
+## A worked demo
+
+`demo/` is a complete run of the stack on a single lightly-redacted source (an email in
+the author's own words). It goes raw → source-manifest → argument → outline →
+scaffold-audit → frankendraft → compose (scientific report) → claim-harden →
+final-audit → derive (blog post) → blind judge → finalize → render-word → retro, and
+produces the same argument in two registers: `demo/05_scientific-report.md` and
+`demo/08_blog-post.md`. Every audit ran as an independent fresh-context review
+(`demo/reviews/`), every human decision is logged (`demo/decision-log.md`), and the
+guardrails caught and fixed real slips along the way. Start at `demo/README.md`. The
+domain (historical poliovirus serotyping) is retained; living-colleague names and
+organizations are redacted.
 
 ## License
 
