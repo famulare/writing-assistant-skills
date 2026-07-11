@@ -46,3 +46,17 @@ caught its own three substantive slips (the hedge drift, the invented figure, th
 citation anachronism) through independent review before finalization. The candidate
 improvements above are small, local, and each traces to a specific moment in this run
 (see `decision-log.md`).
+
+## Update — implemented
+All three candidates were folded into the skills:
+1. **Preserve author hedges on evidential asides** → `rewrite-block` (Pass-1 rule +
+   verification): transport the author's hedge and their own calibration word ("weird")
+   verbatim; do not upgrade it to a stronger claim.
+2. **Catch invented precision in derived/authored framing** → `derive-artifact`
+   (non-negotiable constraint + closing self-screen) and `claim-audit` (procedure +
+   verification): a specific number/date/span in a title, transition, or close that no
+   source supports is an invented claim, even as rhetoric.
+3. **Filter-resilient biomedical fetch-verification** → `harden-claim` (dispatch note +
+   verification): neutralize charged phrasing before dispatch; on a block, reroute to a
+   fallback model family on the first block instead of retrying identically, and
+   cross-check the fallback.

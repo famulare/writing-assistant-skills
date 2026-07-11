@@ -68,6 +68,16 @@ Use available:
    third-party quota — use them for genuine breadth passes, not reflexively, and
    not for long runs without a clear question.
 
+   **Expect content-filter false positives on benign biomedical/historical
+   material.** Factual but charged phrasing (mortality, autopsy, clinical or
+   wartime detail) can trip a model's usage filter on an entirely legitimate
+   query. Neutralize the phrasing before dispatch — ask for the documented fact,
+   not the vivid detail — and if a subagent is blocked, **route to a different
+   model family on the first block** rather than re-issuing the same prompt.
+   Repeated identical retries waste turns and can poison context. Because you
+   switched providers under duress, cross-check the fallback's output against a
+   second source or the primary before folding.
+
 3. **Fetch-verify every candidate identifier and figure** — a verification
    subagent (or a second pass) that fetches the live source page and confirms
    the identifiers (PMID/DOI/title/accession/version) refer to the same object,
@@ -142,6 +152,8 @@ on evidence; if not, skip.
   the live primary source, not recalled; pasted premises are checked, not
   trusted.
 - Disconfirming evidence is surfaced, not suppressed; overreach is flagged.
+- Filter-blocked research was rerouted to a fallback family on the first block
+  (not retried identically), and the fallback's output was cross-checked.
 - The agent surfaces evidence; the human reads it and the author sets strength.
 - A reframe that supersedes a green-lit claim is flagged, never silent.
 - Mixed evidence is reframed to the defensible claim, not smoothed into a tidy

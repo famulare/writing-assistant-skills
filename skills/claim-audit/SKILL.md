@@ -37,7 +37,10 @@ drafting context is only a pre-screen. Do not rewrite unless asked.
 7. Identify invented or unverifiable citations, methods, results, or intent.
    An identifier or figure that was recalled, not fetched, is unverified — see
    Verification. A premise pasted from another agent, tool, or person is an
-   unverified claim, not ground truth.
+   unverified claim, not ground truth. This includes **invented precision**: a
+   specific number, date, span, or magnitude in the prose — often a round figure
+   in framing, a title, or a closing flourish — that no source supports is an
+   invented claim even when it reads as rhetoric.
 8. Identify caveats that were weakened or removed.
 
 ## Output
@@ -65,6 +68,8 @@ Then add:
   not just that a citation on the topic exists.
 - Assumptions are not presented as findings.
 - Speculative language is labeled.
+- No invented precision: every specific quantity, date, span, or magnitude in the
+  prose traces to a source.
 - Caveats remain intact.
 - The audit does not silently repair problems by rewriting them away.
 

@@ -49,7 +49,11 @@ The derived artifact is downstream of hardened work. It must not loosen it.
   scope/audience shift), do not blend it in as if it came from the source.
 - **Invent no unsourced claim.** If the new form seems to need a fact the dossier
   does not carry, mark the hole (`[EVIDENCE NEEDED: …]`), do not fill it. The
-  artifact has no independent evidence-gathering loop.
+  artifact has no independent evidence-gathering loop. This includes **invented
+  precision** — a specific number, date, span of years, or magnitude that reads
+  as rhetorical framing (a round figure in a title or a punchy close, e.g. "for
+  seventy years") is still an unsourced claim. Use the source's own figure or a
+  non-numeric phrasing.
 
 ## Procedure
 
@@ -87,6 +91,10 @@ Run, do not skip:
   ledger strength** and surface any certainty drift the derivation introduced.
 - Confirm no claim in the artifact lacks a source in the dossier; flag any that
   does as `[EVIDENCE NEEDED: …]`, not as a quiet addition.
+- **Scan authored framing — title, transitions, closing — for invented
+  precision.** Any specific quantity, date, span, or magnitude not in the dossier
+  is fabricated even when it reads as a rhetorical flourish; replace it with the
+  source's figure or a non-numeric phrasing.
 - Run the `slop-scan` tell-list (read `../slop-scan/SKILL.md`) over your own
   draft — a summary form drifts toward generic register fast.
 

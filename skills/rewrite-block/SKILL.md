@@ -71,6 +71,12 @@ Rules:
 - Transport only. Never invent citations, methods, results, examples, or intent.
 - Preserve claim strength, uncertainty/hedging, terminology, and useful
   compression exactly. Re-assert any ledger-hardened claim strength.
+- **Evidential asides are claim-strength-sensitive.** When the author hedges an
+  inference ("I can't rule out …", "probably", "roughly") or grades it in their
+  own judgment word ("weird", "odd", "striking"), transport that hedge and that
+  exact word — do not paraphrase it into a stronger or more confident claim
+  (e.g. "is weird" → "is a real signal"). The author's calibration word *is* the
+  claim strength.
 - Mark, do not fill: if the raw points at evidence it doesn't contain, leave the
   marker (`[EVIDENCE NEEDED: …]`, `[VERIFY CITATION: …]`), don't author it.
 - Distinctive friction is signal; do not sand it toward conventional polish.
@@ -99,6 +105,8 @@ or two lines.
 
 - A raw span was supplied; nothing was generated from nothing.
 - Content, claim strength, hedging, terminology, and compression match TARGET RAW.
+- Author hedges and calibration words on evidential asides survived; none was
+  upgraded to a stronger or more confident claim.
 - The polished span does not over-close or summarize past where RIGHT RAW goes.
 - Pass 2 changed only the seam; no restyle or global improvement.
 - Result preserves the author's voice and does not read as generic AI prose.
