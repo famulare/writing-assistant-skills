@@ -25,8 +25,10 @@ you bring your own voice card, and the skills run against your agent.
 - `.claude/commands/` — Claude slash-command wrappers, one per skill (same names).
 - `references/` — the shared operating protocol (`writing-skill-common.md`), the
   which-skill-when router and flow graph (`skill-router.md`, `skill-graph.md`), the
-  naming/inventory convention (`skill-tiers.md`), the voice-card template, the
-  second-pass review prompts, and the workflow-hardening contract.
+  naming/inventory convention (`skill-tiers.md`), the voice-card template plus two
+  filled example cards (`voice-card-example-scientific.md`,
+  `voice-card-example-casual.md`), the second-pass review prompts, and the
+  workflow-hardening contract.
 - `hardening/` — redacted examples of real hardening passes plus a short rider
   (`hardening/README.md`) explaining how the skills were empirically improved over
   successive sessions. See below.
@@ -54,10 +56,13 @@ high-risk), and **visible markers** instead of plausible filler
 
 ## Using it
 
-Bring your own voice card: copy `references/voice-card-template.md` to
-`voice/voice-card.md` and fill it from your own writing. The skills read it as an
-*optional* runtime input and degrade gracefully when it is absent — the current
-conversation and your supplied materials are always the first source of truth.
+Bring your own voice card: start from a filled example
+(`references/voice-card-example-scientific.md` or
+`references/voice-card-example-casual.md`) or the blank
+`references/voice-card-template.md`, copy it to `voice/voice-card.md`, and adapt it
+to your own writing. The skills read it as an *optional* runtime input and degrade
+gracefully when it is absent — the current conversation and your supplied materials
+are always the first source of truth.
 
 Then invoke the skills. In Claude Code, the `.claude/commands/*.md` wrappers are
 slash commands (`/preserve-authorial-writing`, `/run-section`, `/slop-scan`, …).

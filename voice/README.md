@@ -11,15 +11,21 @@ truth.
 
 ## Build your own
 
-1. Copy the template:
+1. Start from a filled example or the blank template — whichever is closer to how
+   you write:
 
    ```sh
-   cp references/voice-card-template.md voice/voice-card.md
+   # a real, filled example (scientific/technical, or casual/blog):
+   cp references/voice-card-example-scientific.md voice/voice-card.md
+   cp references/voice-card-example-casual.md     voice/voice-card.md
+   # or the blank structure:
+   cp references/voice-card-template.md           voice/voice-card.md
    ```
 
-2. Fill it from your own writing — accepted and rejected revisions, distinctive
+2. Adapt it to your own writing — accepted and rejected revisions, distinctive
    phrasings, register differences, and do-not-flag rules (the things a generic
-   "polish" pass would wrongly smooth away). The template explains each section.
+   "polish" pass would wrongly smooth away). The example cards show what specific,
+   grounded entries look like; the template explains each section.
 
 3. Optionally, keep longer per-register evidence in `voice/dossiers/` and treat the
    card as the distilled runtime summary.

@@ -26,8 +26,9 @@ Primary artifacts:
   maps which-skill-when and `references/skill-graph.md` the flow + HITL gates. Do not
   re-list or count the skills here — point to those.
 - `.claude/commands/`: Claude slash-command wrappers (same names as the skills)
-- `references/`: shared protocol, review prompts, voice-card template, and the
-  hardening contract (`hardening-contract.md`)
+- `references/`: shared protocol, review prompts, voice-card template + two filled
+  example cards (scientific and casual), and the hardening contract
+  (`hardening-contract.md`)
 - `voice/`: where a user builds their own voice card from
   `references/voice-card-template.md` (see `voice/README.md`). The maintainer's
   generated dossiers and source manifest are personal and are **not** part of this
@@ -81,8 +82,10 @@ confusing because this package is broader than voice preservation alone;
 - Do not duplicate the full design contract into each skill.
 - Do not add voice-card examples unless they come from Mike's prior writing,
   accepted revisions, rejected revisions, or explicit feedback.
-- Keep `references/voice-card-template.md` as a template. A user's active voice
-  card lives at `voice/voice-card.md` (not tracked in this public release).
+- Keep `references/voice-card-template.md` as a template, and the two
+  `references/voice-card-example-*.md` cards as filled, lightly de-personalized
+  examples. A user's active voice card lives at `voice/voice-card.md` (not tracked
+  in this public release).
 - Treat any `voice/dossiers/` as evidence-backed detail and `voice/voice-card.md`
   as compact runtime guidance.
 - Do not install, symlink, or copy these skills into a live Codex/Claude config
