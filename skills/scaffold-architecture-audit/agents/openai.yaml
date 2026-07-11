@@ -1,0 +1,10 @@
+tier: "leaf"
+role: "audit"
+calls: "—"
+interface:
+  display_name: "Scaffold Architecture Audit"
+  short_description: "Pre-draft cross-section structure audit of a raw scaffold"
+  default_prompt: "Use $scaffold-architecture-audit to audit a raw scaffold's long-range cross-section architecture before the raw→polished transform: section ownership/relocation, CROSS-SECTION redundancy (same fact/claim/source across sections), within-section beat order, section-to-section handoff coherence (no near-duplicate boundaries; loops close), and numbering/heading integrity. Report reorder/relocate/de-dup recommendations to bake into the scaffold, separating the author's architecture decision from the later polish; mark each section as already-coherent vs reorder-still-needed. Re-runnable as the scaffold grows. This skill owns cross-section redundancy; phrase/paragraph-local redundancy belongs to $slop-scan."
+
+policy:
+  allow_implicit_invocation: true

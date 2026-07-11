@@ -1,0 +1,10 @@
+tier: "leaf"
+role: "audit"
+calls: "minimal-edit"
+interface:
+  display_name: "Condense Section"
+  short_description: "Within one section: thread, order, darlings, density"
+  default_prompt: "Use $condense-section to audit ONE section for length and fat: name the core thread, check beat order, name darlings to kill, and flag low-information-density sentences, preserving voice, claim strength, and hedging. ALL decisions surface to the author (high-risk; propose cuts, never auto-delete). Owns within-section thread/density/length — NOT $slop-scan (local generic language), NOT $minimal-edit (diff revision), NOT $scaffold-architecture-audit (cross-section structure)."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,11 @@
+tier: "leaf"
+role: "audit"
+calls: "—"
+interface:
+  display_name: "Claim Audit"
+  short_description: "Check claim support, direction, and calibration in existing prose"
+  default_prompt: "Use $claim-audit to map each major claim in this prose to its source; flag unsupported or overextended material; verify each claim's direction/sign/comparator/magnitude against the evidence, not just that a citation exists; and treat recalled identifiers and pasted premises as unverified until fetched. To re-research and harden a thin claim from scratch, use $harden-claim instead."
+
+policy:
+  allow_implicit_invocation: true
+

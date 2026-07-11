@@ -1,0 +1,10 @@
+tier: "leaf"
+role: "input"
+calls: "— (folds to ledgers)"
+interface:
+  display_name: "Ingest Source"
+  short_description: "Digest one new source mid-project; register + advise fold"
+  default_prompt: "Use $ingest-source to digest one new raw source mid-project (email / paper / chat-as-source): save it verbatim with a provenance header, register it with a status tier (err overcomplete — register-and-flag when unsure), apply the tracked-vs-local rule, fetch-verify every identifier against the live source (never recall), and produce a fold-advisory to the claim ledger + bibliography (proposed, not auto-folded). This is mid-project single-source ingest; to map all controls before drafting, use $source-manifest."
+
+policy:
+  allow_implicit_invocation: true

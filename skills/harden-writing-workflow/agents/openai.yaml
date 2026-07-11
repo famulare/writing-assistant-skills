@@ -1,0 +1,11 @@
+tier: "meta"
+role: "meta"
+calls: "—"
+interface:
+  display_name: "Harden Writing Workflow"
+  short_description: "Improve skills from session friction"
+  default_prompt: "Use $harden-writing-workflow to review this writing session and propose skill, verification, or voice-card improvements."
+
+policy:
+  allow_implicit_invocation: true
+

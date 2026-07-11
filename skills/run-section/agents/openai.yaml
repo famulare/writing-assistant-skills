@@ -1,0 +1,10 @@
+tier: "runbook"
+role: "orchestrate"
+calls: "build-outline, frankendraft, compose-section, final-audit-pass, minimal-edit, harden-claim"
+interface:
+  display_name: "Run Section"
+  short_description: "Run the per-section build loop: outline → draft → audit → harden → fold"
+  default_prompt: "Use $run-section to drive one section through the build loop: refine the section goals, then build-outline → frankendraft → compose-section → final-audit-pass → minimal-edit → harden-claim (late, on the drafted text) → fold to the ledgers. It is granularity-aware — skip stages by stakes rather than forcing the chain — and stops at the architecture, claim-strength, and finalize gates. Pre-writing evidence-gathering is not in the loop."
+
+policy:
+  allow_implicit_invocation: true

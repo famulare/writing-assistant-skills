@@ -1,0 +1,10 @@
+tier: "orchestrator"
+role: "audit"
+calls: "slop-scan, voice-audit, scaffold-architecture-audit, minimal-edit"
+interface:
+  display_name: "Audit Pass"
+  short_description: "Orchestrated slop/voice/scaffold/seam audit sweep"
+  default_prompt: "Use $final-audit-pass to run an orchestrated audit sweep over a section or whole draft: dispatch parallel independent fresh-context $slop-scan + $voice-audit, autonomously resolve local low-risk word/phrase issues and hold author-needing ones, then $scaffold-architecture-audit (auto-handling sentence-level-or-smaller) plus the post-draft cross-section seam/bridge check, and surface all held slop/voice + scaffold/seam findings batched at the end. The auto-resolve boundary is conservative: when in doubt, hold. Carry protected decisions from prior passes forward."
+
+policy:
+  allow_implicit_invocation: true

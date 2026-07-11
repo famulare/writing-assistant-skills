@@ -1,0 +1,11 @@
+tier: "leaf"
+role: "audit"
+calls: "—"
+interface:
+  display_name: "Voice Audit"
+  short_description: "Check whether prose sounds like me"
+  default_prompt: "Use $voice-audit to compare this prose against my supplied writing and identify voice drift. Consult the voice-card do-not-flag list before flagging, and surface a deliberate authorial exception rather than codifying it as a rule."
+
+policy:
+  allow_implicit_invocation: true
+

@@ -1,0 +1,10 @@
+tier: "leaf"
+role: "substrate"
+calls: "—"
+interface:
+  display_name: "Frankendraft"
+  short_description: "Assemble a first-pass draft from only the author's verbatim words"
+  default_prompt: "Use $frankendraft to assemble a first-pass draft from ONLY the author's verbatim text, arranged to the outline/contract, inventing nothing and leaving register/grammar raw. Mark a hole where no verbatim exists — the hole map is the downstream voice-risk surface. Run before $compose-section when the author wants to start from their own words with zero authored connective tissue. Includes a required independent verbatim-fidelity audit in a fresh context."
+
+policy:
+  allow_implicit_invocation: true

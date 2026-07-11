@@ -1,0 +1,10 @@
+tier: "leaf"
+role: "input"
+calls: "—"
+interface:
+  display_name: "Build Outline"
+  short_description: "The outline skill: skeleton matrix + per-section contract"
+  default_prompt: "Use $build-outline to build (or re-architect) the outline: an auditable skeleton matrix, then the per-section contract (Purpose / Must-claim / Must-not-claim / Source-hooks / beats) that frankendraft and compose-section consume."
+
+policy:
+  allow_implicit_invocation: true

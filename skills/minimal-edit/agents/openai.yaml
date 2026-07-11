@@ -1,0 +1,11 @@
+tier: "leaf"
+role: "transform"
+calls: "—"
+interface:
+  display_name: "Minimal Edit"
+  short_description: "Edit prose with minimal drift"
+  default_prompt: "Use $minimal-edit to make the smallest useful edit while preserving voice, meaning, order, and claim strength."
+
+policy:
+  allow_implicit_invocation: true
+

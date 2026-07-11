@@ -1,0 +1,10 @@
+tier: "runbook"
+role: "research"
+calls: "harden-claim, ingest-source"
+interface:
+  display_name: "Run Claim Harden"
+  short_description: "Whole-draft claim-hardening sweep: triage, dispatch, index, fold"
+  default_prompt: "Use $run-claim-harden to harden a finished draft's claims at scale: triage every section (harden / partial / skip-conceptual / nothing — skipping conceptual sections on purpose, since over-hardening them is the failure to avoid), dispatch harden-claim per section that needs it (serial or parallel; the lead crosses model families/tools — subagents do not spawn subagents), emit one report per section plus a consolidated outcome index, close out by tier, then fold verified evidence to the ledgers (via harden-claim's fold, which calls ingest-source for central new sources)."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,11 @@
+tier: "leaf"
+role: "audit"
+calls: "—"
+interface:
+  display_name: "Slop Scan"
+  short_description: "Find generic or over-smoothed prose"
+  default_prompt: "Use $slop-scan to identify generic, over-smoothed, inflated, or AI-like language in this prose."
+
+policy:
+  allow_implicit_invocation: true
+

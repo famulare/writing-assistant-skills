@@ -1,0 +1,11 @@
+tier: "core"
+role: "guard"
+calls: "—"
+interface:
+  display_name: "Preserve Authorial Writing"
+  short_description: "Core guardrails for authorial prose"
+  default_prompt: "Use $preserve-authorial-writing to help revise this prose while preserving my words, voice, claims, and evidence. Mark authored interpretation in connective tissue with [CLAIM RISK]; flag a rough placeholder with [MECHANISM?] rather than finalizing it."
+
+policy:
+  allow_implicit_invocation: true
+

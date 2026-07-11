@@ -1,0 +1,10 @@
+tier: "orchestrator"
+role: "research"
+calls: "ingest-source"
+interface:
+  display_name: "Harden Claim"
+  short_description: "Re-research and harden a thin claim into evidence"
+  default_prompt: "Use $harden-claim to take a load-bearing, contestable claim from asserted to evidence-dense: pose one sharp testable question, fan out read-only breadth-search subagents (lead crosses model families — subagents do not spawn subagents), fetch-verify every identifier and figure against the live source, synthesise honestly and reframe on overreach, let the author set claim strength, then fold the verified evidence into the ledgers. This is the re-research loop that produces evidence; to audit prose that already exists, use $claim-audit."
+
+policy:
+  allow_implicit_invocation: true

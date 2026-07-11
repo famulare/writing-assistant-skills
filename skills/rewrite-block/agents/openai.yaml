@@ -1,0 +1,10 @@
+tier: "leaf"
+role: "transform"
+calls: "minimal-edit"
+interface:
+  display_name: "Rewrite Block"
+  short_description: "Transport one raw span to polished"
+  default_prompt: "Use $rewrite-block to transport an existing raw author span into polished prose under the local raw→polished operator (requires a raw span; two-pass, seam-repair via minimal-edit)."
+
+policy:
+  allow_implicit_invocation: true

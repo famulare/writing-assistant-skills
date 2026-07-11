@@ -1,0 +1,11 @@
+tier: "runbook"
+role: "closeout"
+calls: "claim-audit, voice-audit"
+interface:
+  display_name: "Finalize With Audit"
+  short_description: "Finalize prose with audit trail"
+  default_prompt: "Use $finalize-document-with-audit to produce final prose plus provenance, a sensitivity/leakage check, ledger propagation, uncertainties, and remaining author decisions."
+
+policy:
+  allow_implicit_invocation: true
+

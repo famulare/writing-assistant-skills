@@ -1,0 +1,9 @@
+.DS_Store
+
+# Personal voice material — bring your own; never commit it.
+voice/*
+!voice/README.md
+
+# Local agent config that shouldn't be shared
+.claude/settings.local.json
+.claude/worktrees/

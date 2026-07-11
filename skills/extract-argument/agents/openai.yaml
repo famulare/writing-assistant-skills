@@ -1,0 +1,11 @@
+tier: "leaf"
+role: "input"
+calls: "—"
+interface:
+  display_name: "Extract Argument"
+  short_description: "Extract claims and evidence"
+  default_prompt: "Use $extract-argument to identify the claims, evidence, assumptions, uncertainty, and gaps in these materials."
+
+policy:
+  allow_implicit_invocation: true
+
