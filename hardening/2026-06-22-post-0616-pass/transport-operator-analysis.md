@@ -95,25 +95,25 @@ Mike committed" contrasts are the section-replacement commits (§7 80c1f96, §8 
 
 ---
 
-## 2. Fine-tune seed pairs (assistant draft span → Mike committed span), verbatim-short
+## 2. Representative transport pairs (assistant draft → Mike committed span), verbatim-short
 
-**SEED A — cut the meta-conclusion coda (sign-posting).**
+**PAIR A — cut the meta-conclusion coda (sign-posting).**
 - ASSISTANT: "…These gaps probably set the coarse graining scale from below… and the right model lives between the two, fine enough to answer the decision and no finer than the data can identify. **That is also why this program is worth building even though its outputs serve more than one master: the data it generates feed our observability-first model and the broader TB field's need to understand transmission upstream of clinical disease, tailoring interventions to a population's distribution of shedders.**"
 - MIKE: "…and the right model lives between the two, fine enough to answer the decision and no finer than the data can identify." *(coda deleted entirely)*
 
-**SEED B — cut the absolute, sharpen the verb.**
+**PAIR B — cut the absolute, sharpen the verb.**
 - ASSISTANT: "Scoring every one of them against a single composite 'active TB' outcome cannot show where a tool adds **information missing from the case and control definitions themselves.**"
 - MIKE: "…cannot show where a tool adds **information the case and control definitions themselves miss.**"
 
-**SEED C — re-voice an abstract hedged close into first-person conviction.**
+**PAIR C — re-voice an abstract hedged close into first-person conviction.**
 - ASSISTANT: "**What this buys is not prettier mechanism. It is disciplined uncertainty:** knowing what our diagnostics measure and what they miss, how a product's endpoint connects to transmission… and which measurements would actually change a decision."
 - MIKE: "**Our job as modelers is to provide the multidisciplinary and multiscale systems perspectives that Global Health needs and specialists often lack. It's our job to defend meaning against compression.** Healthcare decisionmaking turns biology into 'latent' and 'active,' a tool into its sensitivity and specificity…"
 
-**SEED D — restore the idiosyncratic concrete detail.**
+**PAIR D — restore the idiosyncratic concrete detail.**
 - ASSISTANT: "…a small disposable filter, **fast sampling**, and high qPCR concordance between the aerosol sampler and a nasal swab…"
 - MIKE: "…a small disposable filter, **fast sampling (just a few horks of one nostril with the other closed)**, and high qPCR concordance…"
 
-**SEED E — cut the over-broad generalization tail.**
+**PAIR E — cut the over-broad generalization tail.**
 - ASSISTANT: "…The tissue during acute infection… does not produce sputum, so sputum-based screening cannot detect it either. This is the error of looking only under the clinical lamppost, **which plagues much of infectious disease research.**"
 - MIKE: "…This is the error of looking only under the clinical lamppost."
 

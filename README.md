@@ -10,8 +10,8 @@ does not author.
 This is a public extract of the maintainer's personal package. It ships the skills,
 the design principles, and the supporting scaffolding. Two things are deliberately
 left out: the maintainer's personal *voice dossiers* (a fingerprint of one person's
-writing) and a *private local-model / RAG substrate*. Neither is needed to use the
-skills — you bring your own voice card, and the skills run against your cloud agent.
+writing) and some *private local tooling*. Neither is needed to use the skills —
+you bring your own voice card, and the skills run against your agent.
 
 ## What's here
 

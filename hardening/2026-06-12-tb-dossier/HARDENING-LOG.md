@@ -1,8 +1,7 @@
 # Hardening review — TB-dossier drafting session (2026-06-12)
 
 **Mode:** HARDEN (process improvement; not relitigating authorship). Per `skills/harden-writing-workflow`.
-**Session:** §4 finalize + Table 1 (Fennelly-vs-Patterson), the §5–§9 reorder → `06b`/`07b`, §5 drafting via an A/B/C/D drafting experiment (in-context Opus vs few-shot Opus agents vs local DiffusionGemma), and the voice/claim/slop passes throughout. Repo: `the TB-dossier project`.
-**Scope note:** the local-model drafting-experiment findings are captured separately (in the project's local-model experiment notes). This log is the *writing-skill* learning.
+**Session:** §4 finalize + Table 1 (Fennelly-vs-Patterson), the §5–§9 reorder → `06b`/`07b`, §5 drafting via a multi-arm drafting-method experiment (in-context vs few-shot drafting agents), and the voice/claim/slop passes throughout. Repo: `the TB-dossier project`.
 
 **Mike's triage (2026-06-12):** the consensus-prior goal is **reframed** below (anchor on *his* reading, position consensus relative to it — not "consensus as foil"); the missing-skill-instructions are **approved**; the blind comparative-judge is **declined** (ad-hoc — a fuller verification workflow already lives in the design contract); the voice-card drift is moved to a **GitHub issue** (don't touch the card now).
 
@@ -64,8 +63,7 @@ A useful reframe the author endorsed: the assistant's *reflexive* framing is a *
 
 ## What worked — do not change
 
-- The **frankendraft** (`07`/`07b`) verbatim-only assembly as the EXPAND substrate — inverts the voice-risk control (start from only-author-words; holes mark where authoring happens). The author extended it (`07b`) as non-local training material.
-- **Section-notes provenance blocks** per section in `09_draft.md` — kept the draft readable while auditable; the author navigated by them.
+- The **frankendraft** (`07`/`07b`) verbatim-only assembly as the EXPAND substrate — inverts the voice-risk control (start from only-author-words; holes mark where authoring happens).- **Section-notes provenance blocks** per section in `09_draft.md` — kept the draft readable while auditable; the author navigated by them.
 - **Contract-drift surfacing** under a structural reorder (`06`→`06b`) — candidates made explicit, not silently merged.
 - **AskUserQuestion before expensive fan-out** when a referent was ambiguous.
 

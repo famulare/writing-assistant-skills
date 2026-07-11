@@ -145,7 +145,7 @@ source-manifest, extract-argument, build-outline, ingest-source. leaf/substrate 
 transform → rewrite-block, minimal-edit. leaf/audit → slop-scan, claim-audit, voice-audit,
 scaffold-architecture-audit, condense-section. orchestrator → compose-section, harden-claim, final-audit-pass,
 derive-artifact. runbook → run-section, run-claim-harden, finalize-document-with-audit(closeout). meta →
-harden-writing-workflow. substrate/external → the local-model substrate.
+harden-writing-workflow.
 
 ---
 

@@ -117,7 +117,7 @@ voice control). Split them:
   prevents over-closing / early-summarizing / generic drift) → emit TARGET POLISHED. Pass-2
   (polished-acausal) = seam-repair only, **calls `minimal-edit`**, no restyle/global-improve.
   Kept deliberately *pure* (transport only; never generate-from-nothing) so it stays a clean,
-  testable atom and a clean LoRA training-pair format.
+  testable atom.
 - **`compose-section` (reworked `draft-from-sources`) = the orchestrator.** Walks the scaffold
   span by span: **raw span → `rewrite-block`; hole → bounded generate-from-sources** (the one
   irreducible piece of genuine "draft from sources" — kept small and voice-controlled) → then a
@@ -269,15 +269,8 @@ writing-dossier scope; the assistant already handles it ad hoc).
 
 ## 8. Tooling side-note (forward-looking — NOT infra to build now)
 
-Captured for the future LLM-tuning / dataset work, per scope decision. Out of writing-skill scope.
+Out of writing-skill scope; kept for the rationale trail.
 
-- **The `<raw><polished><raw>` pattern is also the training format.** `(LEFT RAW, LEFT POLISHED,
-  TARGET RAW) → TARGET POLISHED` is literally the supervised pair for fine-tuning a local model on
-  Mike's raw→polished operator; the b-line-ordered scaffolds are the source corpus. Highest-value
-  future bet: LoRA on raw↔draft pairs.
-- **Local-model probes:** DiffusionGemma is a usable *first-pass / training-data* generator, not
-  prose-ready without fine-tuning; denoising sweet spot ~8 steps; qwen as negative control. Keep the
-  story; don't build infra (verdict: "not yet me-grade").
 - **AI-detector signal:** Pangram flips around a positionally-locked ~376-token cut-point (decisive
   test not yet run); chunked/rolling generation reads "mostly human" — consistent with the
   rolling-window transform's anti-drift mechanism. A real future experiment, not a current claim.

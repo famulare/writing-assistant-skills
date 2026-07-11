@@ -50,7 +50,6 @@ artifacts/modes | sev | lev | target file | scope | disposition`.
 | **skill-stack-reachability-verify** | WORKED | MB(d7bc46fc) | 1 | 1 | empirical base-dir probe | low | low | — | IN | **WATCH** (don't build) |
 | **compaction-survival-plan** | tooling-friction | 8843a17a, 6be476a5, b813bab4 | 3 | ~4 | continuation prompts, locking | low | low | writing-skill-common (note) | IN | optional note |
 | **register-translate-homeless** (NEW) | unclear-skill-boundary | 8843a17a | 1 | 1 | §1–6,10 verbatim→essay | med | high | router + rewrite-block | IN | resolved by `rewrite-block` BUILD |
-| **local-model-drafting-probe** | one-off-preference | 8843a17a, exp | 2 | ~12 | local-model probes, diffusion model, LoRA, AI-detector | — | — | (none) | SIDE | side-note only |
 | **jsonl-false-positive-cleanup** | tooling-friction | a552c3b4, b09d54dc, 4da1cd1c | 3 | ~4 | log truncation | low | low | (none) | SIDE | side-note (confirm-before-destroy) |
 | **in-repo-research-sidequest** | WORKED | 27d8bfa4, 8843a17a, f335a4e5 | 3 | ~5 | bounded literature side-questions | low | low | harden-claim | IN | **KEEP** |
 
@@ -185,7 +184,6 @@ Cross-session evidence CONFIRMs all four — none should be dropped.
 3. **The 4 unapplied approved edits: approved, not applied.** A delivery gap, not a triage
    shift; cross-session evidence CONFIRMs all four.
 
-Standing rulings respected: out-of-scope OSS / figure-data-forensics stay OUT; local-model /
-diffusion-model probes stay SIDE; usage-policy friction is reframed IN as
-orchestration-delegation; the rewrite-block pattern is its own skill; WORKED keys are not
-down-weighted for low N.
+Standing rulings respected: out-of-scope OSS / figure-data-forensics stay OUT;
+usage-policy friction is reframed IN as orchestration-delegation; the rewrite-block
+pattern is its own skill; WORKED keys are not down-weighted for low N.

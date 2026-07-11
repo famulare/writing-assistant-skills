@@ -53,7 +53,7 @@ reconcile against the live diff.
   agents bucket the same failure under different labels, a real N=2 silently splits into two
   N=1s and the pass fails to build what actually recurred. → a cheap **index pass builds a
   closed vocabulary before deep review** (the single human checkpoint).
-- **The §5 A/B/C/D drafting experiment + blind judge live in nested `subagents/` dirs** (one
+- **The §5 drafting-method experiment + blind judge live in nested `subagents/` dirs** (one
   XL session has 17 nested agents). That cluster is its own map unit, not an appendage.
 - **Confidentiality:** transcripts contain CONFIDENTIAL dossier content (an internal grant, an
   internal strategy review, an untracked reader memo). Digests/findings never enter git; only the
@@ -62,8 +62,7 @@ reconcile against the live diff.
 ### Mike's decisions (this session)
 
 - **Scope:** writing-skills hardening (primary) **+ a forward-looking tooling side-note** —
-  the local-model exploration story preserved for future model-tuning and
-  dataset creation, explicitly *not* infra to build now. Includes the
+  kept out of scope, explicitly *not* infra to build now. Includes the
   `<raw><polished><raw><TO FILL IN>` prompt-pattern discussion.
 - **Run mode:** blind per-session map → **one human checkpoint at the recurrence registry**
   → autonomous through synthesis to deliverable, then iterate with Mike on the deliverable.
@@ -112,7 +111,6 @@ paraphrase conclusions, so they are **Phase 3 reconcile inputs only**, never Pha
 `writing/working/02_claim_ledger.md` (44 hardened claims), `03_drafting_voice_bank.md`,
 `06_outline_locked.md` + `06b_outline_reordered.md`, `07_frankendraft.md` +
 `07b_frankendraft_2.md`, `09_draft.md` (canonical), `08_post_it_notes...md`,
-`<the local-model experiment notes>` (+ A/C/D arm outputs),
 `.claude/skills/harden-claim/SKILL.md`, and the repo git log (artifact lineage / dates).
 
 ---
@@ -139,7 +137,7 @@ so prior findings map cleanly in Phase 3. No free-text classes.)
 file in this set; but an **`out-of-set target proposed`** field is allowed and flagged for Mike
 (critical: the proposed `scaffold-architecture-audit` is a NEW skill file that does not exist
 yet — a strictly-closed set would wrongly reject the very subskill the prior work proposed).
-- Skills: `skills/{build-skeleton,claim-audit,draft-from-sources,extract-argument,finalize-document-with-audit,frankendraft,harden-writing-workflow,local-writing-llm,minimal-edit,preserve-authorial-writing,slop-scan,source-manifest,voice-audit}/SKILL.md`
+- Skills: `skills/{build-skeleton,claim-audit,draft-from-sources,extract-argument,finalize-document-with-audit,frankendraft,harden-writing-workflow,minimal-edit,preserve-authorial-writing,slop-scan,source-manifest,voice-audit}/SKILL.md`
 - References: `references/{independent-review-prompts,skill-router,voice-card-template,writing-skill-common}.md`
 - Voice: `voice/{voice-card.md,voice-card.yaml,translation-guide.md,review-notes.md,dossiers/}`
 - Contract: `Design-Contract-for-AI-Assisted-Writing.md`
@@ -212,9 +210,8 @@ Output → `digests/`. Confirm all digests <~150K tokens (expected; guardrail: i
 split on section/artifact boundaries — never mid-correction-pair — with a claim-ledger-state
 preamble per chunk).
 
-Also assemble one **experiment-cluster digest**: the §5 A/B/C/D + blind-judge subagent
-transcripts (from the 06-11/06-12 sessions' `subagents/` dirs) + a pointer to
-`<the local-model experiment notes>`.
+Also assemble one **experiment-cluster digest**: the §5 drafting-method + blind-judge subagent
+transcripts (from the 06-11/06-12 sessions' `subagents/` dirs).
 
 ### Phase 1a — Index pass (cheap; Sonnet/Haiku OK) → human checkpoint
 
@@ -243,9 +240,9 @@ notes or the registry's provenance.
   `harden-writing-workflow` against that session's digest + its subagent digests, and
   **cross-references the aerosol artifacts** (claim ledger, drafts, outlines, voice bank) to
   upgrade an override into a *confirmed* accept/reject finding.
-- One Opus subagent for the **experiment-cluster** (A/B/C/D + blind judge + EXPERIMENT_NOTES)
+- One Opus subagent for the **experiment-cluster** (the §5 drafting-method experiment + blind judge)
   — produces both writing-skill findings (frankendraft, blind judge, few-shot drafting) and
-  flags tooling/local-model items for the side-note.
+  flags tooling items for the side-note.
 - One batched Sonnet/Opus triage agent for the **7 thin S-tier** sessions: read all, report
   which carry signal; escalate any to full review.
 - **Blindness rules (fairness):** map agents see the *current* skill files, the harden SKILL,
@@ -303,8 +300,8 @@ generalization-tier · risk-of-over-hardening · mirror-needed (Codex `agents/op
 test/check (how we'd know it helped, ideally the non-TB counterfactual) · sequencing**.
 Plus: meta-findings (e.g., the approved-but-unapplied gap; whether to split the voice-card
 into `voice/dossiers/` per register; the repo-local-vs-package home for `harden-claim`),
-the **tooling side-note** (forward-looking; `<raw><polished><raw><TO FILL IN>` pattern +
-DiffusionGemma/LoRA story), and open questions. Iterate with Mike; then a separate approved
+the **tooling side-note** (forward-looking; `<raw><polished><raw><TO FILL IN>` pattern),
+and open questions. Iterate with Mike; then a separate approved
 step applies the edits to the skill files (+ Codex mirrors).
 
 ---
