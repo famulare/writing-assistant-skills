@@ -9,7 +9,7 @@ scientific and casual voice cards. I judged; I did not rewrite. Scores are 1–5
 
 1. Received partition (three serotypes treated as a hard fact)
 2. 1949 they already knew serotypes were fuzzy
-3. Bodian/Morgan evidence, with Per & Kover as the misbehaving strains
+3. Bodian/Morgan evidence, with Per & Kotter as the misbehaving strains
 4. Early-1950s standardization defined the fuzziness away
 5. Evolutionary reading (heterogeneous immunity selects off-type drift)
 6. OPV2 cessation makes it live again
@@ -20,7 +20,7 @@ scientific and casual voice cards. I judged; I did not rewrite. Scores are 1–5
 
 | Axis | Score | Justification |
 |---|---|---|
-| Arc completeness | 5 | All six beats present, one per section (§1 partition → §6 live again); no beat dropped, and §3 carries both Per and Kover. |
+| Arc completeness | 5 | All six beats present, one per section (§1 partition → §6 live again); no beat dropped, and §3 carries both Per and Kotter. |
 | Register separation | 5 | Formal-scientific and genuinely so — footnoted journal citations, precise hedging ("conditional," "I can't rule out") — without going dead or institutional; it still lands "is weird." |
 | Shared-substrate fidelity | 5 | Same facts and same claim strengths as the source and the blog; speculation is labeled as speculation; the 2-of-6 reproducibility argument is preserved intact. |
 | Faithfulness to author | 4 | Sounds like a formalized Mike (cadence, conviction, hedges), but sheds the source's emotional register — the Per "tearing up" beat is gone entirely. Register-appropriate, but it's a real loss of the most distinctive authorial signal. |

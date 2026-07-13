@@ -166,6 +166,11 @@ Audit notes should include:
 - unsupported material
 - author decisions needed
 
+These notes are part of the contract, not optional narration. If the fixed
+anchor, per-span route, connective-tissue markers, or span provenance is absent,
+the compose result is incomplete and must not be represented as a validated
+transport.
+
 ## Verification
 
 - Each span ran in its own fresh-context agent; no single agent walked the whole
@@ -178,3 +183,5 @@ Audit notes should include:
 - No citation, result, method, or intent is invented.
 - The self-screen ran; residual slop and certainty drift are surfaced.
 - The seam pass changed only seams.
+- The required audit notes exist. Missing anchor/span/provenance records fail
+  verification rather than being silently reconstructed after the fact.

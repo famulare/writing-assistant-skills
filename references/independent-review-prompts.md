@@ -35,6 +35,35 @@ not rewrite unless asked. Identify:
 
 Ground each finding in specific language.
 
+## Voice costume audit reviewer
+
+Use only for a finished whole artifact. Run in two isolated stages with the same
+fresh reviewer.
+
+**Blind stage:** Give the reviewer only the artifact and its artifact type. Do
+not disclose author identity, raw source, voice evidence, drafting history,
+suspected failure, or desired result. Ask the reviewer to infer and freeze the
+document's implied speaker, reader relationship, epistemic posture, genre
+performance, recurring persona mechanisms, and counter-signals.
+
+**Reveal stage:** Only after the blind profile is persisted, supply the raw
+author language/frankendraft, explicit artifact contract, relevant voice evidence,
+accepted/rejected revisions, and author decisions. Ask the reviewer to classify
+each verdict-relevant inferred trait as source-earned, contract-required,
+author-approved, unsupported costume, or underdetermined. Require evidence from
+both the artifact and the authority materials. Check whether authority earned in
+one domain, corpus, method, or time horizon has been inflated into authority over
+another. Group the blind profile into five to eight rows and report no more than
+five governing findings.
+
+Return the frozen blind profile, authority map, whole-artifact verdict, authentic
+anchors, smallest repair strategy, author decisions needed, and independence
+record. Do not rewrite. Genre convention alone is not proof of costume, and a
+costume finding is not itself a recommendation to remove it. Route the
+keep/modify/remove choice to the human. In an explicitly autonomous demo, a demo
+agent may simulate the choice only when it is logged as simulated rather than
+author-approved.
+
 ## N-way comparative judge
 
 Use when several candidate drafts of the same unit exist (for example, outputs
@@ -86,4 +115,3 @@ back across model families, then fall back to a labeled same-context pass marked
 explicitly as a pre-screen rather than independent review. Surface which tier
 actually ran so the author knows whether the result was independently verified or
 only pre-screened.
-

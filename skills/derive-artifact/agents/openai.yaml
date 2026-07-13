@@ -4,7 +4,7 @@ calls: "extract-argument, build-outline, compose-section, final-audit-pass"
 interface:
   display_name: "Derive Artifact"
   short_description: "Render a downstream artifact from a finished dossier (v0)"
-  default_prompt: "Use $derive-artifact (v0/PROVISIONAL) to produce a downstream artifact (executive summary / reader memo / cover note) from a finished dossier: extract the spine via extract-argument, build-outline for the new form, compose under heavy voice control (the hole-fill path dominates), then final-audit-pass. Re-assert the source's hardened ledger claim strengths (no loosening), mark any new framing as authored, and invent no unsourced claim. To compose a section of the source document itself, use $compose-section."
+  default_prompt: "Use $derive-artifact (v0/PROVISIONAL) only for a genuinely downstream artifact (executive summary / reader memo / cover note) from a finished dossier: extract the spine via extract-argument, build-outline for the new form, compose under heavy voice control, then final-audit-pass. Name claim authority separately from voice authority, re-assert hardened claim strengths, mark new framing as authored, and invent no unsourced claim. A parallel register rendering of the same raw source must branch from the shared frankendraft via $compose-section, not from another AI rendering."
 
 policy:
   allow_implicit_invocation: true

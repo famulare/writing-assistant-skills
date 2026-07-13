@@ -27,7 +27,7 @@ you bring your own voice card, and the skills run against your agent.
   which-skill-when router and flow graph (`skill-router.md`, `skill-graph.md`), the
   naming/inventory convention (`skill-tiers.md`), the voice-card template plus two
   filled example cards (`voice-card-example-scientific.md`,
-  `voice-card-example-casual.md`), the second-pass review prompts, and the
+  `voice-card-example-casual.md`), the independent-review prompts, and the
   workflow-hardening contract.
 - `hardening/` — redacted examples of real hardening passes plus a short rider
   (`hardening/README.md`) explaining how the skills were empirically improved over
@@ -47,7 +47,7 @@ what (with the human-in-the-loop gates), read `references/skill-router.md` and
 ## Design in one paragraph
 
 The skills form a call hierarchy, not a flat list. **Leaves** do one thing
-(`rewrite-block`, `slop-scan`, `voice-audit`, `claim-audit`, …). **Orchestrators**
+(`rewrite-block`, `slop-scan`, `voice-audit`, `voice-costume-audit`, `claim-audit`, …). **Orchestrators**
 call leaves over one bounded unit (`compose-section` builds a section,
 `harden-claim` hardens a claim, `final-audit-pass` reviews a draft). **Runbooks**
 drive multi-stage, human-gated processes over the whole artifact (`run-section`,
@@ -70,7 +70,10 @@ are always the first source of truth.
 
 Then invoke the skills. In Claude Code, the `.claude/commands/*.md` wrappers are
 slash commands (`/preserve-authorial-writing`, `/run-section`, `/slop-scan`, …).
-Codex-style agents read the `skills/<name>/` folders directly.
+Codex-style agents read the `skills/<name>/` folders directly. For a finished
+whole draft, `final-audit-pass` additionally dispatches the independent
+blind/reveal `voice-costume-audit`; that audit identifies document-wide persona
+choices but returns the keep/modify/remove decision to the human.
 
 ## Install (symlinks)
 
@@ -104,15 +107,15 @@ detail; the domain (tuberculosis) content is retained as the concrete example it
 ## A worked demo
 
 `demo/` is a complete run of the stack on a single lightly-redacted source (an email in
-the author's own words). It goes raw → source-manifest → argument → outline →
-scaffold-audit → frankendraft → compose (scientific report) → claim-harden →
-final-audit → derive (blog post) → blind judge → finalize → render-word → retro, and
-produces the same argument in two registers: `demo/05_scientific-report.md` and
-`demo/08_blog-post.md`. Every audit ran as an independent fresh-context review
-(`demo/reviews/`), every human decision is logged (`demo/decision-log.md`), and the
-guardrails caught and fixed real slips along the way. Start at `demo/README.md`. The
-domain (historical poliovirus serotyping) is retained; living-colleague names and
-organizations are redacted.
+the author's own words). It transports the same argument independently into a formal
+scientific report and a casual blog post from one shared frankendraft; it does **not**
+derive one AI rendering from the other. The demo preserves the original autonomous-run
+audits as a failure record, adds current independent audits—including the blind/reveal
+`voice-costume-audit`—and records simulated versus author-approved decisions explicitly.
+Start at [`demo/README.md`](demo/README.md), then read
+[`demo/11_workflow-retro.md`](demo/11_workflow-retro.md). The domain (historical
+poliovirus serotyping) is retained; the raw source remains lightly redacted while the
+approved public artifacts name Amy Rosenfeld and correct Kotter.
 
 ## License
 

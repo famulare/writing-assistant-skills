@@ -57,12 +57,13 @@ matrix). A router alias note covers the transition.
 | slop-scan | leaf | audit | — |
 | claim-audit | leaf | audit | — |
 | voice-audit | leaf | audit | — |
+| voice-costume-audit | leaf | audit | — |
 | scaffold-architecture-audit | leaf | audit | — |
 | condense-section | leaf | audit | minimal-edit |
 | render-word | leaf | transform | — |
 | compose-section | orchestrator | transform | rewrite-block, minimal-edit |
 | harden-claim | orchestrator | research | ingest-source |
-| final-audit-pass | orchestrator | audit | slop-scan, voice-audit, scaffold-architecture-audit, minimal-edit |
+| final-audit-pass | orchestrator | audit | slop-scan, voice-audit, voice-costume-audit, scaffold-architecture-audit, minimal-edit |
 | derive-artifact | orchestrator | transform | extract-argument, build-outline, compose-section, final-audit-pass |
 | run-section | runbook | orchestrate | build-outline, frankendraft, compose-section, final-audit-pass, minimal-edit, harden-claim |
 | run-claim-harden | runbook | research | harden-claim, ingest-source |

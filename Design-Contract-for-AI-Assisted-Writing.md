@@ -505,17 +505,56 @@ Verification:
 * repair proposals preserve the original argument
 * distinctive friction is treated as possible signal
 
+### `/voice-costume-audit`
+
+Purpose: test whether a finished whole artifact invents a rhetorical persona,
+genre performance, reader relationship, or epistemic posture that is not earned
+by source language, the artifact contract, or explicit author decisions. This is
+document-level; local phrasing remains `/voice-audit` or `/slop-scan` territory.
+Costume is diagnostic, not automatically bad: strong genre conventions or a
+deliberate public stance may justify keeping it.
+
+Method:
+
+* run in a fresh independent context
+* first give the reviewer only the artifact and artifact type
+* freeze the inferred persona before revealing source, contract, voice evidence,
+  or author decisions
+* after reveal, classify each material trait as source-earned,
+  contract-required, author-approved, unsupported costume, or underdetermined
+* distinguish general expertise from authority over a specific corpus, method,
+  period, or adjacent field
+
+Verification:
+
+* the blind profile was persisted before the reveal
+* findings describe cumulative document behavior, not a list of disliked phrases
+* genre convention alone is not treated as costume
+* every costume finding returns to the author for a keep/modify/remove decision;
+  detection never creates an automatic mandate to revise
+* an autonomous demo agent may simulate the decision only when the record labels
+  it simulated and not author-approved
+* every whole-artifact repair is proposed to the author, never silently applied
+
 ### `/final-audit-pass`
 
 Purpose: orchestrate the post-draft review of a section or whole draft — parallel
-`/slop-scan` and `/voice-audit`, then `/scaffold-architecture-audit`, with a
-post-draft cross-section seam check.
+`/slop-scan` and `/voice-audit`; for a whole draft, a mandatory blind-then-reveal
+`/voice-costume-audit`; then `/scaffold-architecture-audit`, with a post-draft
+cross-section seam check.
 
 Rules:
 
 * run slop-scan and voice-audit as parallel, independent, fresh-context passes
+* for a whole draft, freeze the independent costume audit's artifact-only persona
+  profile before revealing any authority evidence
+* preserve the full costume subreport or a stable reference to it, including the
+  frozen profile/hash, authority map, reveal inputs, verdict, and independence status
+* hold every whole-artifact persona repair for the author
 * auto-resolve only local low-risk word- and phrase-level issues; hold the rest
-* then run the scaffold/seam check; auto-handle sentence-level-or-smaller issues
+* run scaffold-architecture-audit only on a supplied raw scaffold; never pass it
+  finished prose; treat post-draft scaffold findings as read-only evidence mapped
+  to the artifact, not as auto-edits; then run the finished-prose seam check
 * surface all author-needing slop/voice and scaffold/seam issues batched at the end
 * carry protected decisions forward — a later pass must not undo an earlier kept choice
 
@@ -587,11 +626,11 @@ Verification:
 
 ### `/render-word`
 
-Purpose: export a markdown document to M365-styled .docx.
+Purpose: export a markdown document to Gates Foundation–styled .docx.
 
 Rules:
 
-* use pandoc with the captured M365 Word reference template
+* use pandoc with the captured Gates/M365 Word reference template
 * pass through markdown → .docx with `--reference-doc`
 * preserve Aptos fonts, Normal.dotm styles, 1-inch margins, US Letter
 * support optional `--toc` for table of contents

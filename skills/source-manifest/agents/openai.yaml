@@ -4,8 +4,7 @@ calls: "—"
 interface:
   display_name: "Source Manifest"
   short_description: "Map sources before drafting"
-  default_prompt: "Use $source-manifest to identify the instructions, source materials, evidence gaps, conflicts, and any confidential or reader-private material for this writing task."
+  default_prompt: "Use $source-manifest to identify the instructions, source materials, evidence gaps, conflicts, and any confidential or reader-private material for this writing task. Distinguish task, evidentiary, and voice authority; never use a template/example voice card as governing voice evidence for real prose."
 
 policy:
   allow_implicit_invocation: true
-

@@ -6,19 +6,19 @@ Per `skills/build-outline`. One spine, built once; both registers transport from
 
 | § | Working title | Arc beat | Claim placed here | Source hook (raw email) | Citation need | Risk flag |
 |---|---|---|---|---|---|---|
-| 1 | The partition we trust | 1 | Central: the clean 3-serotype partition is partly a standardization artifact | "less black and white than the dogma today" | — | thesis stated; keep calibrated |
+| 1 | Boundaries before standardization | 1 | Central: pre-standardization evidence showed fuzzier boundaries; later practice largely removed that evidence from view | "less black and white than the dogma today" | — | do not upgrade to "categories were manufactured" |
 | 2 | What 1949 already knew | 2 | Fuzziness was measured before it was defined away | "way back in the day, they knew serotypes were fuzzy" | AJE vol 49 (1949) | verify container |
-| 3 | The scheme and its exceptions | 3 | Bodian's 3 types + the type-defining pattern; Per & Kover break it | Per (WV 1940, Sabin); Kover symmetric (Bodian+Morgan) | Bodian 1949; Morgan 1949 | fetch-verify strain facts |
+| 3 | The scheme and its exceptions | 3 | Bodian's 3 types + the type-defining pattern; Per & Kotter break it | Per (WV 1940, Sabin); Kotter symmetric (Bodian+Morgan) | Bodian 1949; Morgan 1949 | fetch-verify strain facts |
 | 4 | How fuzziness was defined away | 4 | Standardization erased the ambiguity; 4 of 14 survived | "canonizing of stylized facts…" ; reference strains | "4 of 14 sequenced" | verify/mark the count |
 | 5 | An evolutionary reading | 5 | Heterogeneous immunity permits off-type persistence; trivalent suppresses it | seasonal waves; "a little more type 2 like"; Per as such a virus | — | label as speculation |
 | 6 | Why it is live again | 6 | Purifying selection + VP1 typing hide it; OPV2 cessation re-heterogenizes → expect between-type | "we wait a few years and start to notice viruses that are between serotype" | — | calibrated forecast, not claim |
 
 ## Per-section contracts
 
-### §1 The partition we trust
-- **Purpose:** state the thesis — the three-serotype certainty is partly manufactured.
-- **Must-claim:** serotypes are treated as fixed; that fixity is partly a standardization artifact.
-- **Must-not-claim:** that serotypes aren't real / are interchangeable.
+### §1 Boundaries before standardization
+- **Purpose:** state the thesis — the modern framework looks cleaner than the pre-standardization evidence.
+- **Must-claim:** serotypes are treated as fixed; later standardization largely removed evidence of fuzzy boundaries from routine view.
+- **Must-not-claim:** that serotypes aren't real / are interchangeable, or that the categories themselves were manufactured.
 - **Source-hooks:** "Everything is less black and white than the dogma today."
 - **Beats:** the received view → the crack in it → thesis.
 
@@ -31,10 +31,10 @@ Per `skills/build-outline`. One spine, built once; both registers transport from
 
 ### §3 The scheme and its exceptions
 - **Purpose:** give the concrete historical evidence.
-- **Must-claim:** Bodian 1949 fixes 3 serotypes + the challenge pattern; **Per** is grouped type 1 but cross-protected by type 2; **Kover** is symmetric (Bodian + Morgan).
+- **Must-claim:** Bodian 1949 fixes 3 serotypes + the challenge pattern; **Per** is grouped type 1 but cross-protected by type 2; **Kotter** is symmetric (Bodian + Morgan).
 - **Must-not-claim:** any specific table number not verified; that the exceptions are artifact-free (author keeps the "could be noise, but…" hedge).
 - **Source-hooks:** the Per provenance (3-yr-old, WV 1940, Sabin), the "2/6 when expectation is 6/6 is weird" reproducibility aside.
-- **Beats:** the normal pattern → Per breaks it → Kover confirms the phenomenon → the reproducibility caveat.
+- **Beats:** the normal pattern → Per breaks it → Kotter confirms the phenomenon → the reproducibility caveat.
 
 ### §4 How fuzziness was defined away
 - **Purpose:** mechanism of the artifact.

@@ -4,18 +4,20 @@ Per `skills/extract-argument`. Pulls the argument out of `raw_source_serotype-fu
 without drafting new prose.
 
 ## Central claim
-The three-serotype model of poliovirus is treated as a hard, clean partition, but that
-cleanliness is partly an artifact of mid-20th-century standardization. The pre-1950s
-literature measured real cross-immunity between "types," and the conditions that once
-let off-type variants persist (heterogeneous population immunity) are being recreated by
-type-2 OPV cessation — so between-serotype viruses should be expected, not surprising.
+The three-serotype model of poliovirus is treated as a hard, clean partition, but the
+pre-1950s literature measured real cross-immunity between "types." Later assay and
+reference-strain standardization largely defined that evidence out of routine view. The
+conditions that may once have let off-type variants persist (heterogeneous population
+immunity) are being recreated by type-2 OPV cessation, so between-serotype viruses should
+be expected rather than surprising. This does not imply that the categories themselves
+were manufactured or are biologically unreal.
 
 ## Subclaims
 1. Pre-standardization virologists already saw serotype fuzziness (cross-immunity across
    many monkeys).
 2. Bodian 1949 fixed the three-serotype scheme and the type-defining challenge pattern.
 3. Specific strains violated the clean pattern: **Per** (grouped type 1 but cross-protected
-   by type 2) and **Kover** (symmetric cross-protection, seen in both Bodian and Morgan 1949).
+   by type 2) and **Kotter** (symmetric cross-protection, seen in both Bodian and Morgan 1949).
 4. Standardization (early 1950s: cell culture + reference strains) operationally erased the
    ambiguity; most named isolates dropped out — only 4 of 14 survived to be sequenced.
 5. Evolutionary reading: heterogeneous cross-serotype immunity selects for/permits off-type

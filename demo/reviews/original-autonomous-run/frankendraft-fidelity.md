@@ -29,8 +29,8 @@ out of scope.
 - L34 V "the archetypes back then were Brunhilde (type 1), Lansing (type 2), and Leon (type 3)." — **OK.** Exact (src L31); legitimate mid-sentence start dropping leading "Anyway,".
 - L36 V "the normal pattern that defines serotypes is '…'. And vice versa…" — **OK.** Exact (src L33); legitimate start dropping leading "In the table,".
 - L38 V "BUT, there are exceptions…They group it as a type 1 but it's in the middle." — **OK.** The `…` correctly elides the parenthetical "(I'm legit tearing up at this, emotional these days)" (src L35). Proper ellipsis; no stitching distortion.
-- L40 V "I also flagged the Kover strain…symmetrically in the middle of type 1 and type 2." — **OK.** Exact (src L37).
-- L42 V "vaccinated with Kover (type 1) looks somewhat cross-protective…somewhat protective against Kover." — **OK.** Exact (src L37); legitimate mid-sentence start dropping "But the green shows the opposite –".
+- L40 V "I also flagged the Kotter strain…symmetrically in the middle of type 1 and type 2." — **OK.** Exact (src L37).
+- L42 V "vaccinated with Kotter (type 1) looks somewhat cross-protective…somewhat protective against Kotter." — **OK.** Exact (src L37); legitimate mid-sentence start dropping "But the green shows the opposite –".
 - L44 V "across many years of looking at tables like this…2/6 when the expectation is 6/6 is weird." — **OK.** Exact (src L37); numbers 2/6 and 6/6 verified.
 
 ### §4 How fuzziness was defined away
@@ -55,7 +55,7 @@ out of scope.
 
 ## Cross-cutting checks
 
-- **Numbers / strain names / dates:** All verified against source — MEF1, 1942, Per, Kover, Brunhilde/Lansing/Leon/Mahoney, type 1/2/3, 2/6, 6/6, 14, 4, 1980s–90s, factors of 4-8, VP1, ITD, West Virginia 1940, Houston mid-50s. No changed numbers or strain names.
+- **Numbers / strain names / dates:** All verified against source — MEF1, 1942, Per, Kotter, Brunhilde/Lansing/Leon/Mahoney, type 1/2/3, 2/6, 6/6, 14, 4, 1980s–90s, factors of 4-8, VP1, ITD, West Virginia 1940, Houston mid-50s. No changed numbers or strain names.
 - **Non-contiguous stitching:** None found. Every multi-clause `V:` span is contiguous in the source; the only omissions are (a) the L38 parenthetical, correctly marked with `…`, and (b) clean mid-sentence starts that drop a leading conjunction/frame without altering meaning.
 - **Invented factual content outside a hole:** None. No fact appears in the draft that is absent from the source.
 - **Holes containing authored prose:** None. All three `[HOLE]` markers describe what must be authored rather than doing the authoring.

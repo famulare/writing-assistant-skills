@@ -1,42 +1,54 @@
-<!-- Derived via skills/derive-artifact from 05_scientific-report.md (the finished dossier),
-transported to the casual register under references/voice-card-example-casual.md.
-Hole-fill path dominates (re-expression, not span-transport). Re-asserts the hardened
-claim strengths from 06_claim-ledger.md; new casual framing (title, section headers,
-"rabbit hole", closing) is authored; no unsourced claim added. Section-light by choice
-(casual essay). Audited in reviews/ (blog-*). -->
+<!-- Composed as a parallel transport from 04_frankendraft.md, using the source
+email as voice authority and the hardened ledger/report only for factual and
+claim-strength control. This is not derived from 05_scientific-report.md. -->
 
-# We decided polio comes in three flavors. The old data weren't so sure.
+# Way back in the day, they knew poliovirus serotypes were fuzzy
 
-We treat the three poliovirus serotypes as a hard fact of nature — type 1, type 2, type 3, clean boxes — and part of that hardness is something we manufactured in the 1950s. I went digging in the 1949 literature last week, and the people who first sorted these viruses weren't nearly as sure the boxes were clean. Read the papers from before the cleanup and the story is fuzzier than the dogma I was handed.
+So I had some fun with volume 49, issue 2 of the *American Journal of Hygiene* from 1949. Turns out, way back in the day, they knew serotypes were fuzzy. We're only surprised because developments since the 1950s largely defined away the evidence for fuzzy serotypes.
 
-## What they knew before they tidied it up
+First, all credit to a virologist colleague, Amy Rosenfeld. Her work on cross-reactive antibodies had sent her back to the old literature, and listening to her sent me there too. This is a part of the literature I'd spent zero time with before this, so that is really fun. I'd figured I didn't need to know how we figured out what polio was in the first place.
 
-Here's the thing. Way back, they *knew* serotypes were fuzzy. Before anyone had a sequencer, people worked out what a "type" even was by measuring cross-immunity across a lot of monkeys — and they kept finding significant cross-immunity, which is exactly the thing the modern dogma waves off. We're only surprised now because of who taught whom. The virologists the eradication program inherited its framework from picked up the serotype dogma in the early 1980s or later — two to four generations downstream of the people, like Bodian, who first figured out what polio is, and a full generation after the assays got standardized. By the time it reached us, it had already been cleaned up.
+She said that in the old literature, you can see people figuring out what serotypes were by measuring cross-immunity with lots of monkeys. The existence of significant cross-immunity is counter to the dogma as represented by everything most of us were taught. The virologists in the eradication program inherited that dogma in the early 1980s or later: two to four generations after people like Bodian worked out what polio is, and a generation after the assays and reagents were standardized. You can see where this is going.
 
-So I went back to the tables.
+## Bodian 1949
 
-## Bodian, and the strains that won't behave
+Bodian, Morgan, and Howe established the three-type scheme in 1949.[^1] Back then, strains still had names associated with their origins. MEF-1 was named after the Middle East Forces of the British Army, where an outbreak among servicemen took place in 1942. Table 1 is a hoot if you're interested in this history. Table 2 is super interesting too: the monkey neurovirulence dose varies by almost four orders of magnitude. Lord knows what those viral stocks went through over the years, but naturally occurring strains also had measurably different virulence. Everything is less black and white than the dogma today.
 
-Bodian, Morgan, and Howe pinned down the three-type scheme in 1949, in the American Journal of Hygiene (same journal that's now the American Journal of Epidemiology, which threw me for a second). Strains back then were named for where they came from — MEF-1 is literally "Middle East Forces," from a 1942 outbreak among British soldiers. The archetypes were Brunhilde (type 1), Lansing (type 2), and Leon (type 3), and the type-defining pattern is lovely when it holds: immunize a monkey with a type 2 and it shrugs off other type 2s but gets paralyzed by type 1s, and vice versa.
+The archetypes were Brunhilde (type 1), Lansing (type 2), and Leon (type 3). The normal pattern is that monkeys immunized with Lansing do not get paralyzed when challenged with other Lansing-like viruses, but they get paralyzed at about the same rate as unimmunized controls when challenged with Brunhilde-like viruses. And vice versa.
 
-And then there are the strains that won't behave. The one that got me is "Per" — reportedly from a three-year-old girl who died in West Virginia in 1940, autopsied by Albert Sabin. (I'm legit tearing up at this — I'm emotional about this stuff these days.) Per is fully protected by type 1 vaccination *and* significantly cross-protected by type 2. They filed it under type 1, but it sits in the middle. There's another, "Kover," that does it symmetrically — cross-protective both ways — and it turns up again in Morgan's companion paper, so it isn't just one weird table. Could it be noise? I can't rule out sampling variation or lab error. But across years of reading tables like these, the same strain usually reproduces to within one monkey across papers, so a 2-of-6 where you'd expect 6-of-6 is weird.
+## BUT, there are exceptions
 
-## How we lost the plot
+Per reportedly came from a three-year-old girl who died in West Virginia in 1940; Albert Sabin performed the autopsy. I'm legit tearing up at this; I'm emotional about this stuff these days. Monkeys immunized against type 1 were completely protected when challenged with Per, but type 2 immunization also provided significant cross-protection. They group it as type 1, but it's in the middle.
 
-And here's the kicker. This is old, small-N data, sure. But it comes from a moment when genetic diversity was high, when population immunity across serotypes wasn't yet synchronized by trivalent vaccines, and before we'd built the assays and algorithms specifically to remove this ambiguity. In the early '50s, cell culture and the three-type scheme were standardized together for vaccine development. Everyone stopped fussing with the old monkey-isolated strains and referenced everything to a handful of prototypes. Most of those other names just… vanish from the literature. Of the fourteen strains in Bodian's grouping, only four survived to be sequenced decades later. And honestly? If your job is to vaccinate against three types, none of the lost nuance matters. But in the canonizing of stylized facts, we lost the common knowledge that the story is fuzzy.
+I also flagged Kotter because it comes up again in Morgan's companion paper.[^2] With one table, you could call the partial cross-protection noise. But in Morgan, Kotter is symmetrically in the middle of type 1 and type 2: immunizing with Kotter looks somewhat protective against Lansing, just as immunizing with Lansing looks somewhat protective against Kotter.
 
-## Now the speculation (and it *is* speculation)
+I certainly can't rule out sampling variation or lab error or whatever. But across many years of looking at tables like this, assays with the same strain are usually reproducible to within one monkey across papers. Two of six when the expectation is six of six is weird.
 
-Conjecture time — treat this as conjecture. Suppose between-type viruses are less fit intrinsically, but they hang on transiently when population immunity across serotypes is patchy. What does history look like? Pre-vaccine, outbreaks came in seasonal waves of one serotype (at least in richer places, where the age of infection was older and paralysis more visible — poorer places like Houston in the mid-'50s got every serotype every year). So any given town carried patchy immunity in its kids. If last year was a type 1 in a place that hadn't seen type 2 in a while, this year's type 1 does a little better by looking a little more type-2-ish. Per could be exactly that kind of virus. The key thing: as long as some towns skip a serotype for a few years, the population can select for off-type drift among whatever survives the low periods.
+## How the fuzziness got defined away
 
-Then trivalent vaccine shows up, nearly everyone gets all three types at once as a baby, and that heterogeneity collapses.
+I realize this is old data and small N. It comes from an era when genetic diversity was high, population immunity across serotypes was not synchronized by trivalent vaccines, and the assays and algorithms had not yet been defined to remove ambiguity among serotypes.
 
-## Why I'm bringing this up now
+In the early 1950s, cell culture and this understanding of serotypes were standardized for vaccine development. Labs stopped looking at most of the old strains isolated in monkeys and standardized tests around Mahoney or Brunhilde (type 1), Lansing (type 2), and Leon (type 3). Most of the other isolates with names we have never heard of disappear from the literature. Of the fourteen strains in Bodian's list, only four survived to be sequenced in the 1980s and 1990s: Brunhilde, Lansing, MEF-1, and Leon.
 
-Fast-forward. Modern wild poliovirus is under such strong purifying selection that it barely drifts antigenically for long; we type it on VP1 alone; and we assume between-serotype viruses are unfit — so the people running the typing assays have never seen one in their lives. Then we dropped the type 2 vaccine. Population immunity across serotypes is now getting more heterogeneous than it has ever been, even though the standing genetic diversity of the virus is tiny. Put those together, and I'd expect that in a few years we start noticing viruses that sit between serotypes. Given the old data, our own experience of bOPV cross-protecting against type 2, and modern work on cross-reactivity across the enterovirus family, "mostly type 1 with a little bit of type 2" should not be surprising at all.
+If you're vaccinating against three types, none of this nuance matters. But in the canonizing of stylized facts, we lost the common knowledge that the story is fuzzy.
 
-The boxes were always fuzzier than the reference panel made them look. We spent the vaccine era removing one of the forces that kept them looking sharp — and we just removed one more.
+I look at this, plus our experience with cross-protection from bOPV against type 2, plus my colleague's review of similar early data and her modern work on cross-reactivity in the enterovirus family, and conclude that a poliovirus being "mostly type 1 with a little bit of type 2" should not be surprising at all.
+
+## What does history look like?
+
+It is really interesting to speculate about the evolutionary dynamics. Let's assume that viruses between types tend to be less intrinsically fit, but are more likely to persist at least transiently when population immunity is heterogeneous across serotypes.
+
+Before vaccination, outbreaks tended to come in seasonal waves of a given serotype, at least in richer communities where the age of infection was older and paralysis more common. Poorer communities like Houston in the mid-1950s had every serotype every year. Any given town could therefore have fairly heterogeneous immunity among children. If last year's outbreak was type 1 in a place that had not seen type 2 for a few years, then this year's type 1 might do better if it were a little more type-2-like. Per could be a virus like that, immunizing against type 1 and a bit against type 2.
+
+All the permutations are possible in principle. The key thing is that, as long as there are towns where serotypes do not hit every year, population immunity can select for viruses drifting off-type among those that persist through the endemic low periods.
+
+Then trivalent vaccines show up. Most people get immunized with all three strains at the same time early in life, and population-level heterogeneity becomes much lower. In the modern era, wild polioviruses are under very strong purifying selection and don't drift far antigenically for long, although titers around the reference strains vary by factors of four to eight all the time when we look. Between only sequencing, basing intratypic differentiation on VP1, and assuming that between-serotype viruses are less fit, the people running the typing assays have never seen one in their lives.
+
+And then we drop the type 2 vaccine. Population immunity across serotypes becomes much more heterogeneous than ever before, but the genetic diversity of wild poliovirus is incredibly small. So after a few years, we should start to notice viruses that are between serotype.
 
 ---
 
-*Written with AI help from a single source email of my own, then independently audited for voice and claims and fact-checked against the 1949 literature. The Per and Kover details come from the primary tables, not secondary sources. Conjecture is labeled as conjecture on purpose. Decision trail and citations are in the repo.*
+[^1]: Bodian D, Morgan IM, Howe HA. "Differentiation of types of poliomyelitis viruses. III. The grouping of fourteen strains into three basic immunological types." *Am J Hyg.* 1949;49(2):234-245. [PubMed 18113220](https://pubmed.ncbi.nlm.nih.gov/18113220/). The Per grouping is my reading of the primary table; the four-of-fourteen sequencing count is an author-sourced domain claim with limited external verification.
+[^2]: Morgan IM. "Differentiation of types of poliomyelitis viruses. II. By reciprocal vaccination-immunity experiments." *Am J Hyg.* 1949;49(2):225-233. [PubMed 18124443](https://pubmed.ncbi.nlm.nih.gov/18124443/). The Kotter interpretation is my reading of the primary table.
+
+*Prepared with AI assistance as a parallel transport from a single source email, with the email controlling voice and the hardened scientific record controlling factual corrections and claim strength. The Per and Kotter interpretations remain my reading of the primary tables; the four-of-fourteen count is an author-sourced domain claim with limited external verification. The conjecture is labeled as conjecture on purpose.*

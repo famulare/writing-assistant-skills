@@ -10,6 +10,7 @@ Read these files if available:
 - `skills/source-manifest/SKILL.md`
 
 Identify the active instruction, centered source language, source artifacts and
-their roles, evidence gaps, voice sources, conflicts, and human decisions
-needed. Do not draft prose.
-
+their roles and authority (task / evidentiary / voice), evidence gaps, voice
+sources, conflicts, and human decisions needed. Example/template voice cards
+demonstrate structure; they are not governing voice evidence for real prose.
+Do not draft prose.

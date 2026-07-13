@@ -1,6 +1,6 @@
 # /render-word
 
-Export a markdown file to M365-styled .docx:
+Export a markdown file to Gates Foundation–styled .docx:
 
 `$ARGUMENTS`
 
@@ -10,7 +10,7 @@ Read if available:
 
 Pass the input markdown file (required), optionally the output path (defaults to
 same directory and stem with .docx extension), and optionally `--toc` to include
-a table of contents. The skill runs pandoc with the M365 Word reference template
+a table of contents. The skill runs pandoc with the Gates Word reference template
 to produce a .docx with Aptos fonts, Normal.dotm defaults, 1-inch margins, and
 US Letter formatting.
 

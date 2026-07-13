@@ -3,8 +3,8 @@ role: "transform"
 calls: "—"
 interface:
   display_name: "Render Word"
-  short_description: "Convert markdown to M365-styled .docx via pandoc"
-  default_prompt: "Use $render-word to export a markdown document to .docx with Aptos fonts, M365 defaults, and US Letter formatting. Pass the input markdown file path and optionally an output path and --toc flag."
+  short_description: "Convert markdown to Gates Foundation–styled .docx via pandoc"
+  default_prompt: "Use $render-word to export a markdown document to .docx with Aptos fonts, Gates/M365 defaults, and US Letter formatting. Pass the input markdown file path and optionally an output path and --toc flag."
 
 policy:
   allow_implicit_invocation: false

@@ -15,7 +15,7 @@
 
 ## Places where the original friction is useful — do NOT flag
 
-- **§3 "The exceptions are the point."** — reads like a takeaway-announcer, but it is a terse pointed opener that the following sentences immediately cash out with the Per/Kover cases. In-voice (short direct landing). Keep.
+- **§3 "The exceptions are the point."** — reads like a takeaway-announcer, but it is a terse pointed opener that the following sentences immediately cash out with the Per/Kotter cases. In-voice (short direct landing). Keep.
 - **§4 "and — the operative point — before the assays and algorithms were built to remove exactly this ambiguity."** — the inserted "the operative point" aside is doing real work: it singles out the load-bearing item from a three-item list rather than merely labeling significance. Borderline sign-posting but functional. Keep.
 - **§6 closing em-dash: "…made it look — and we are now removing one of the forces that kept it looking sharp."** — genuine turn/landing that deliberately bookends the §1 "hard fact / manufactured" thesis. Earned. Keep.
 - **All appositive/concrete-instance em-dashes** (§2 "…1980s or later — two to four generations after…"; §3 "…renamed the *American Journal of Epidemiology*) — the third part reports…"; §3 "clean when it holds — monkeys immunized with Lansing…"; §3 "The 'Per' strain — which the 1949 tables trace to a three-year-old girl… autopsied by Albert Sabin —…"; §4 prototype and surviving-strain lists; §5 "seasonal waves of a single serotype — at least in wealthier communities…"): each resumes the main clause, unpacks a definition, or drops in a concrete instance. Load-bearing per the function test.

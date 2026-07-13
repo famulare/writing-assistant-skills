@@ -23,6 +23,13 @@ reader. Almost every span here is a hole — there is rarely raw text for the ne
 form — so the **hole-fill path dominates, and the heaviest voice control
 applies.**
 
+**Do not use this skill for a parallel register rendering of the same raw
+source.** If one source email/scaffold/frankendraft is meant to become both a
+report and a blog post, both branches start from that raw substrate and use
+`compose-section`; one AI rendering must not become the prose substrate for the
+other. A hardened dossier or ledger may govern the second branch's claims and
+factual corrections without becoming its voice authority.
+
 If available, read `../../references/writing-skill-common.md`. If
 `../../voice/voice-card.md` exists, read it for the active register and the
 "author's own / do-not-flag" entries — heaviest voice control applies because the
@@ -33,6 +40,16 @@ do not paste or summarize the whole card unless asked.
 
 EXPAND, source-bounded. The new artifact may only say what the finished dossier
 already supports. No span introduces evidence the source does not carry.
+
+## Authority split
+
+- The finished dossier and hardened ledger are **claim authority**.
+- Direct author language and register-matched author exemplars are **voice
+  authority**.
+- The source document is not automatically voice authority merely because it
+  is claim authority. When the target register differs, supply direct author
+  evidence in the target register; if none exists, mark the resulting voice
+  risk rather than synthesizing a voice costume.
 
 ## The non-negotiable constraint — fidelity to the source ledger
 
@@ -78,10 +95,11 @@ The derived artifact is downstream of hardened work. It must not loosen it.
    authored framing `[CLAIM RISK: …]`; mark missing support, do not fill it.
 
 4. **Audit → `final-audit-pass`** (read `../final-audit-pass/SKILL.md`). Run the independent
-   audit over the derived artifact: slop-scan + voice-audit, and — the move that
-   matters most here — confirm every claim strength matches the source ledger and
-   every new framing move is marked. Surface drift and unmarked interpretation for
-   the author; do not silently smooth.
+   audit over the derived artifact: slop-scan + voice-audit + the whole-artifact
+   blind/reveal voice-costume-audit, and — the move that matters most here —
+   confirm every claim strength matches the source ledger and every new framing
+   move is marked. Surface drift and unmarked interpretation for the author; do
+   not silently smooth.
 
 ## Closing self-screen (before presenting)
 
@@ -130,3 +148,6 @@ Audit notes should include:
   voice-controlled, not authored-around.
 - The independent audit ran; drift and unmarked interpretation are surfaced.
 - The artifact adds no evidence to the source ledgers.
+- The task was genuinely downstream, not a parallel rendering that should have
+  branched from a shared frankendraft.
+- Claim authority and voice authority are named separately.

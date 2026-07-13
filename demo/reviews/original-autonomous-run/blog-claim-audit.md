@@ -24,7 +24,7 @@ required hedges survive. Three low-severity notes below, one worth an author gla
 | C4 | "MEF-1 is literally 'Middle East Forces,' from a 1942 outbreak among British soldiers" | ledger C4 VERIFIED; source | none | defensible |
 | C5 | archetypes Brunhilde/Lansing/Leon; type-defining challenge pattern | ledger C5 VERIFIED; report §3 | none | defensible |
 | C6 | "'Per' — reportedly from a three-year-old girl who died in West Virginia in 1940, autopsied by Albert Sabin… fully protected by type 1… significantly cross-protected by type 2… they filed it under type 1, but it sits in the middle" | ledger C6 PRIMARY-TABLE/author-sourced; report §3 | "reportedly" hedge PRESENT; provenance kept author/primary-sourced, no secondary citation invented | defensible |
-| C7 | "'Kover'… cross-protective both ways… turns up again in Morgan's companion paper, so it isn't just one weird table" | ledger C7 PRIMARY-TABLE; report §3 | none | defensible |
+| C7 | "'Kotter'… cross-protective both ways… turns up again in Morgan's companion paper, so it isn't just one weird table" | ledger C7 PRIMARY-TABLE; report §3 | none | defensible |
 | C8 | "Could it be noise? I can't rule out sampling variation or lab error. But… the same strain usually reproduces to within one monkey across papers, so a 2-of-6 where you'd expect 6-of-6 is weird" | ledger C7/C8 author-sourced; report §3 | "can't rule out lab error" hedge PRESENT; framed as author judgment ("across years of reading tables") | defensible |
 | C9 | high genetic diversity, unsynchronized cross-serotype immunity, assays built "specifically to remove this ambiguity"; early-'50s cell-culture + three-type standardization | ledger C9 VERIFIED; report §4 | none | defensible |
 | C10 | "Of the fourteen strains in Bodian's grouping, only four survived to be sequenced decades later" | ledger C10 AUTHOR-SOURCED (14→3 verified; exact set not independently confirmed); report §4 | stated as flat fact — but at SAME strength as report (report also states it uncited inline); provenance not promoted | defensible; see Finding 3 |
@@ -69,7 +69,7 @@ required hedges survive. Three low-severity notes below, one worth an author gla
 ## Provenance / hedge survival check (explicitly required)
 - **"Per" provenance (WV, 1940, child, Sabin):** kept author/primary-sourced; **"reportedly"
   present.** PASS.
-- **"Kover" (Bodian + Morgan companion paper):** kept author/primary-sourced, no invented
+- **"Kotter" (Bodian + Morgan companion paper):** kept author/primary-sourced, no invented
   secondary citation. PASS.
 - **"4 of 14":** kept at author strength, no false authority added. PASS.
 - **"can't rule out sampling variation or lab error" hedge:** PRESENT. PASS.
@@ -87,7 +87,7 @@ required hedges survive. Three low-severity notes below, one worth an author gla
 
 ## Direction / sign / magnitude
 - Per: type-1-protected, cross-protected by type 2 → direction matches source/report. PASS.
-- Kover: symmetric cross-protection both ways → matches source's green-box reading. PASS.
+- Kotter: symmetric cross-protection both ways → matches source's green-box reading. PASS.
 - Type-defining pattern (immunize type 2 → resist type 2, paralyzed by type 1; vice versa):
   direction correct. PASS.
 - OPV2 withdrawal → increasing cross-serotype immunity heterogeneity → expect between-type

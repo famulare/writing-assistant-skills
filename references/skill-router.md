@@ -41,14 +41,17 @@ Reference table below and the `called-by` view at the end render that hierarchy;
 - **A draft exists and you're checking it (AUDIT, run in fresh/independent
   context):**
   - run the whole sweep at once → `final-audit-pass` (orchestrates parallel independent
-    `slop-scan` + `voice-audit`, auto-resolves local low-risk word/phrase issues,
-    then `scaffold-architecture-audit` + the post-draft seam check; holds
-    author-needing items batched at the end). Use the leaves directly for a single
-    targeted check.
+    `slop-scan` + `voice-audit`; for whole drafts it also runs a mandatory
+    blind-then-reveal `voice-costume-audit`; then it audits a supplied raw scaffold
+    and checks finished-prose seams; holds author-needing items batched at the end). Use
+    the leaves directly for a single targeted check.
   - reads generic / over-smoothed / LLM-ish (phrase- and paragraph-local) →
     `slop-scan`
   - claims may have drifted from evidence; direction/sign/magnitude → `claim-audit`
   - doesn't sound like the author → `voice-audit`
+  - the whole artifact seems to perform an invented narrator, genre, or
+    epistemic posture even when its individual passages look acceptable →
+    `voice-costume-audit` (mandatory independent blind/reveal protocol)
 - **A load-bearing claim is thin / only-asserted and needs real evidence** →
   `harden-claim` (the re-research LOOP: question → breadth fan-out → fetch-verify →
   honest synthesis → author sets strength → fold to ledgers). Distinct from
@@ -64,6 +67,11 @@ Reference table below and the `called-by` view at the end render that hierarchy;
   memo, cover note) → `derive-artifact` (extract the spine, outline the new form,
   compose under heavy voice control, audit; invents no unsourced claim). For a
   section of the source document itself, use `compose-section`.
+  - A **parallel register rendering of the same raw source** (for example, one
+    email rendered as both a report and a blog post) is not a derived artifact.
+    Branch both outputs from the shared frankendraft through `compose-section`;
+    let the hardened ledger control claims without making either AI rendering
+    the other's voice substrate.
 - **Wrapping up a serious artifact** → `finalize-document-with-audit` (provenance trail +
   confidential-leakage check).
 - **Improve the skillset after a session** → `harden-writing-workflow`. For a
@@ -109,7 +117,8 @@ Redundancy has two owners: **phrase/paragraph-local** → `slop-scan`;
 | claim-audit | leaf | audit | test defensibility of written prose against sources; direction/sign (run independent) | re-researching a thin claim; making prose sound like you | harden-claim, finalize |
 | harden-claim | orchestrator | research | re-research + fetch-verify + reframe a thin claim into evidence (the loop) | auditing prose that already exists | claim-audit, ingest-source, finalize |
 | voice-audit | leaf | audit | test whether prose sounds like the author (run independent) | checking factual support | minimal-edit, finalize |
-| final-audit-pass | orchestrator | audit | run the whole audit sweep at once (slop + voice + scaffold + seam) | a single targeted check (use the leaf) | slop-scan, voice-audit, scaffold-architecture-audit |
+| voice-costume-audit | leaf | audit | test whether a finished whole artifact invents a document-wide persona (independent blind/reveal) | local phrasing drift; general document quality | final-audit-pass |
+| final-audit-pass | orchestrator | audit | run the whole audit sweep at once (slop + local voice + whole-artifact costume + supplied raw scaffold + finished seam) | a single targeted check (use the leaf) | slop-scan, voice-audit, voice-costume-audit, scaffold-architecture-audit |
 | run-section | runbook | orchestrate | drive one section from settled contract to hardened, audited prose | the whole-draft claim sweep (run-claim-harden); section assembly only (compose-section) | build-outline, compose-section, final-audit-pass, harden-claim |
 | run-claim-harden | runbook | research | harden the load-bearing claims across a whole draft | one section's build loop (run-section); a single claim (harden-claim) | harden-claim, ingest-source |
 | derive-artifact | orchestrator | transform | spin a downstream artifact (exec summary, memo, cover note) off a finished dossier | a section of the source doc itself (compose-section) | extract-argument, build-outline, compose-section, final-audit-pass |
@@ -133,6 +142,7 @@ leaf can be read upward to its callers. A single authoritative direction
 | minimal-edit | rewrite-block, compose-section, condense-section, final-audit-pass, run-section |
 | slop-scan | final-audit-pass |
 | voice-audit | final-audit-pass, finalize-document-with-audit |
+| voice-costume-audit | final-audit-pass |
 | scaffold-architecture-audit | final-audit-pass |
 | claim-audit | finalize-document-with-audit |
 | compose-section | derive-artifact, run-section |

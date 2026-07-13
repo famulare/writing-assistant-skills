@@ -90,12 +90,12 @@ i.e. the companion cross-protection paper. Same journal, same volume/issue (AJH
 49(2)), sole author Isabel Morgan. This matches the description of a companion
 paper used for cross-protection / cross-immunity data.
 
-**"Kover" strain / symmetric cross-protection: UNVERIFIED.** I could not confirm a
-poliovirus strain named **"Kover"** in any indexed source, nor the specific
+**"Kotter" strain / symmetric cross-protection: UNVERIFIED.** I could not confirm a
+poliovirus strain named **"Kotter"** in any indexed source, nor the specific
 "symmetric cross-protection" finding attached to it. This may be a strain name
 internal to the primary paper (not surfaced in abstracts/indexes), a transcription
 variant of another strain name, or an error. Recommend checking the full text of
-Morgan 1949 (Part II) directly before citing "Kover." Do not assert the Kover
+Morgan 1949 (Part II) directly before citing "Kotter." Do not assert the Kotter
 detail as verified.
 
 ---
@@ -149,6 +149,6 @@ asserting.
 | Part III formalizes three immunological types | High |
 | "First to make clear three serotypes" (as scheme) | Medium (see nuance) |
 | Morgan 1949 = reciprocal cross-immunity companion paper | High |
-| "Kover" strain / symmetric cross-protection | UNVERIFIED |
+| "Kotter" strain / symmetric cross-protection | UNVERIFIED |
 | Series discusses cross-immunity/heterotypic response | High |
 | Series describes "intermediate" strains | UNVERIFIED / Low |

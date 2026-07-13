@@ -27,7 +27,8 @@ then runs that step. Core + steps:
 - `/claim-audit` — test whether the prose is defensible against sources.
 - `/harden-claim` — re-research and harden a thin claim into evidence (the loop).
 - `/voice-audit` — test whether the prose still sounds like Mike.
-- `/final-audit-pass` — orchestrated audit sweep: parallel slop-scan + voice-audit, then scaffold/seam check.
+- `/voice-costume-audit` — blind/reveal test for an invented whole-artifact persona; costume is diagnostic, not automatically bad.
+- `/final-audit-pass` — orchestrated audit sweep: local slop/voice, whole-artifact costume for drafts, supplied raw-scaffold audit, and finished-prose seams.
 - `/run-section` — runbook: drive one section end to end (outline → draft → audit → harden → fold).
 - `/run-claim-harden` — runbook: whole-draft claim-hardening sweep across every section.
 - `/derive-artifact` — spin a downstream artifact (exec summary, memo) off a finished dossier.

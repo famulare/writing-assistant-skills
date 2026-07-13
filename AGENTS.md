@@ -29,6 +29,10 @@ Primary artifacts:
 - `references/`: shared protocol, review prompts, voice-card template + two filled
   example cards (scientific and casual), and the hardening contract
   (`hardening-contract.md`)
+- `demo/`: a public, lightly redacted end-to-end run of the stack, including the
+  corrected parallel transports, independent audits, workflow failure record, and
+  decision log. Read `demo/README.md` before treating any historical audit as
+  validation of the current artifacts.
 - `voice/`: where a user builds their own voice card from
   `references/voice-card-template.md` (see `voice/README.md`). The maintainer's
   generated dossiers and source manifest are personal and are **not** part of this
@@ -60,6 +64,9 @@ Primary artifacts:
   replacements, one-line rationales, and explicit lists of new claims, certainty
   shifts, terminology substitutions, unsupported material, and decisions needed.
 - Final wording, structure, emphasis, and claims stay human-authored.
+- Autonomous demos may simulate human gates to exercise the workflow, but a
+  simulated decision is not author approval and cannot advance an artifact to
+  final without the author's actual call.
 
 For anything involving claims, evidence, citations, or substantial revision, read
 the contract and `references/writing-skill-common.md` rather than relying on this
@@ -88,6 +95,9 @@ confusing because this package is broader than voice preservation alone;
   in this public release).
 - Treat any `voice/dossiers/` as evidence-backed detail and `voice/voice-card.md`
   as compact runtime guidance.
+- `voice-costume-audit` is diagnostic rather than corrective: costume may be
+  required by genre or deliberately chosen. Route keep/modify/remove decisions to
+  the human; do not de-costume automatically.
 - Do not install, symlink, or copy these skills into a live Codex/Claude config
   unless Mike explicitly asks.
 

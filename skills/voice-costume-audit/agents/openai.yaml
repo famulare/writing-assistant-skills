@@ -1,0 +1,10 @@
+tier: "leaf"
+role: "audit"
+calls: "—"
+interface:
+  display_name: "Voice Costume Audit"
+  short_description: "Test whether a document invents its author"
+  default_prompt: "Use $voice-costume-audit to run an independent blind-then-reveal audit of this whole artifact for a document-wide rhetorical persona. Freeze the blind profile before reading authority evidence. Costume is diagnostic, not automatically bad: return any keep/modify/remove decision to the human and never silently repair it."
+
+policy:
+  allow_implicit_invocation: true

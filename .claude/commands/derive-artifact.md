@@ -20,4 +20,7 @@ Re-assert the source's hardened ledger claim strengths — do not loosen, round,
 drop caveats for brevity. Mark any new framing, emphasis, or reordering as
 authored (`[CLAIM RISK: …]` / `[SCOPE RISK: …]`). Invent no unsourced claim; mark
 missing support `[EVIDENCE NEEDED: …]` rather than filling it. To compose a
-section of the source document itself, use `/compose-section`.
+section of the source document itself, use `/compose-section`. Do not use this
+command for a parallel register rendering of the same source: both renderings
+must branch from the shared frankendraft. The dossier/ledger may control claims
+without becoming voice authority.

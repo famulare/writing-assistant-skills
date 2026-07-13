@@ -4,7 +4,7 @@
 `raw_source_serotype-fuzziness.md`, `06_claim-ledger.md`, `07_bibliography.md` only).
 **Mode:** AUDIT — findings only, no rewrite.
 **Verdict:** Defensible. No unsupported claims, no invented citations, no direction/sign/magnitude
-errors, no misattribution of Per/Kover/"4 of 14". Speculation (§5) and forecast (§6) stay labeled.
+errors, no misattribution of Per/Kotter/"4 of 14". Speculation (§5) and forecast (§6) stay labeled.
 Four minor items below (all low / low-med): one dropped caveat, one attribution over-reach, one added
 qualifier, one hedge softening. None require the author to change a claim's substance.
 
@@ -18,7 +18,7 @@ qualifier, one hedge softening. None require the author to change a claim's subs
 | C4 | MEF-1 named for Middle East Forces, 1942 outbreak (§3) | Bib context ref (Smithsonian) + source ln 29 | none | — |
 | C5 | Type-defining challenge pattern, both directions (§3) | Source ln 33; standard | none | direction/sign correct |
 | C6 | "Per": grouped type 1, cross-protected by type 2; WV/1940/Sabin provenance (§3) | Primary 1949 table (author's reading); ftnt 2 flags not secondary-attested | low | see F3 (attribution wording) |
-| C7 | "Kover": symmetric cross-protection, recurs in Morgan II (§3) | Primary tables + Morgan II; hedge kept | none | — |
+| C7 | "Kotter": symmetric cross-protection, recurs in Morgan II (§3) | Primary tables + Morgan II; hedge kept | none | — |
 | C8 | Reproducibility aside; 2/6 vs 6/6 is a real signal (§3) | Author experience, source ln 37 | low-med | see F1 (dropped caveat) |
 | C9 | Early-1950s standardization removed the ambiguity (§4) | Source ln 39; verified mechanism | none | — |
 | C10 | Only 4 of 14 survived to be sequenced (§4) | Author-sourced (harden-facts: exact set not independently confirmed) | low | see F4 (declarative, per ledger decision — acceptable) |
@@ -53,7 +53,7 @@ Fix: drop "prototype" → "fourteen strains" (matches title and source).
 
 ### F3 — "the 1949 tables trace to…" over-attributes the Per biographical provenance (C6, §3) — LOW
 Report: *"The 'Per' strain — which the 1949 tables trace to a three-year-old girl who died in West
-Virginia in 1940, autopsied by Albert Sabin…"* Footnote 2: *"The 'Per' and 'Kover' strain details
+Virginia in 1940, autopsied by Albert Sabin…"* Footnote 2: *"The 'Per' and 'Kotter' strain details
 appear in the primary 1949 tables…"*
 Source (ln 35): the author narrates the provenance ("which found its way from a 3 year old girl…") but
 does not state that the biographical detail (child, WV, 1940, Sabin) is contained in a *table*.
@@ -63,7 +63,7 @@ of the strain's history, which the source presents without a table locus. The st
 protection reading is table-sourced; the biography may not be.
 Fix: soften attribution, e.g. *"the 'Per' strain — which traces to a three-year-old girl…"* (drop
 "the 1949 tables"), or narrow footnote 2 to "the strain grouping and cross-protection data appear in
-the primary 1949 tables." Low severity — consistent with the project's decision to keep Per/Kover at
+the primary 1949 tables." Low severity — consistent with the project's decision to keep Per/Kotter at
 author strength, so this is precision, not a substantive defect.
 
 ### F4 — "only four survived to be sequenced" presented declaratively (C10, §4) — LOW (acceptable)
@@ -75,7 +75,7 @@ No action required unless the author wants a signal (e.g. "in my reading, only f
 the accepted ledger decision.
 
 ## Cross-checks that PASS (no finding)
-- **Direction/sign/magnitude:** Per (type 1, cross-protected by type 2), Kover (symmetric), and the
+- **Direction/sign/magnitude:** Per (type 1, cross-protected by type 2), Kotter (symmetric), and the
   type-defining challenge pattern all match the source's polarity. Titer "factors of four to eight"
   matches "4-8." "Two to four generations / one generation" matches.
 - **Speculation labeling (§5):** opens *"It is worth speculating… — as speculation,"* uses "Assume,"
@@ -83,11 +83,11 @@ the accepted ledger decision.
 - **Forecast labeling (§6):** *"the expectation follows,"* "we should start to notice," "should not be
   surprising" — calibrated expectation, not a claim of observation.
 - **Citations:** footnotes 1–2 map to bibliography refs 3 and 2 (PMIDs 18113220, 18124443); no
-  secondary citation invented for Per/Kover (footnote 2 explicitly says not independently attested).
+  secondary citation invented for Per/Kotter (footnote 2 explicitly says not independently attested).
   Journal name/rename handled correctly (AJH → AJE 1965). Burnet & Macnamara / NFIP context in
   footnote 1 is supported by the bibliography's verified context references.
 - **Caveats retained:** "This is old, small-N data, and I will not pretend otherwise" (§4) preserves the
-  source's key limitation; Kover "you might dismiss… as noise, but" hedge kept.
+  source's key limitation; Kotter "you might dismiss… as noise, but" hedge kept.
 
 ## Author decisions needed
 1. F1: restore the "sampling variation / lab error" caveat on the 2/6 observation? (recommended)

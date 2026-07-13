@@ -22,6 +22,11 @@ Distinguish:
 - evidentiary authority: what supports a claim
 - voice authority: what establishes how the prose should sound
 
+Do not infer one authority from another. A finished or hardened AI draft may be
+claim authority for a downstream summary, but it does not thereby become voice
+authority. Templates and example voice cards demonstrate structure; direct
+author language establishes voice.
+
 ## Modes
 
 - EDIT: existing prose is present. Preserve meaning, voice, order, claim
@@ -80,6 +85,13 @@ same prose, a later pass must not silently undo a decision an earlier pass
 deliberately protected (e.g. a density pass removing an em-dash a voice pass had
 kept). Carry protected decisions forward across passes; if a later pass wants to
 revisit one, surface it rather than reverting it.
+
+**Simulated HITL is not approval.** An autonomous demo may exercise a human gate
+by recording the decision an assistant would recommend. It must label that call
+`simulated`, keep medium/high-risk framing reviewable, and must not describe the
+result as human-authored, author-approved, final, or ready to ship. H1-H5 remain
+open until the author actually acts. A simulated decision may test orchestration;
+it cannot confer authority on the assistant's own wording or framing.
 
 ## Markers
 
@@ -186,4 +198,3 @@ The skill folders, the Claude slash-command wrappers, and the symlink layout int
 the live Claude/Codex configs are documented in `AGENTS.md` ("Install rules") and
 repaired by `scripts/install-symlinks.sh`. This repo is the source of truth; do
 not re-derive the layout by trial and error.
-

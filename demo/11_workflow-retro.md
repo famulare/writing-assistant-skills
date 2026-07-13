@@ -41,11 +41,12 @@ candidates for the author, not auto-applied.
    fallback on the first failure rather than re-issuing the same query.
 
 ## Net
-The stack produced two register-faithful, claim-defensible pieces from one source and
-caught its own three substantive slips (the hedge drift, the invented figure, the
-citation anachronism) through independent review before finalization. The candidate
-improvements above are small, local, and each traces to a specific moment in this run
-(see `decision-log.md`).
+The original conclusion below was too favorable. The stack caught several local slips,
+but the autonomous run also misrouted the blog, used example cards as governing voice
+authority, strengthened the central thesis, and treated simulated HITL decisions as
+author approval. Those failures were not small or local. The corrected artifacts branch
+from the shared frankendraft, distinguish claim authority from voice authority, and leave
+generated framing reviewable.
 
 ## Update — implemented
 All three candidates were folded into the skills:
@@ -64,7 +65,8 @@ All three candidates were folded into the skills:
 ## Addendum — the read-aloud pass (post-publication)
 After the pieces were finalized and published, the author **listened to them read aloud**
 and flagged both introductions as weak. A rerun slop-scan
-(`reviews/slop-scan-report-v2.md`, `reviews/blog-slop-scan-v2.md`) confirmed it: the
+(`reviews/original-autonomous-run/slop-scan-report-v2.md`,
+`reviews/original-autonomous-run/blog-slop-scan-v2.md`) confirmed it: the
 authored openers buried the thesis behind warm-up — concession-before-thesis plus a
 split, double-hedged thesis in the report; three stacked clichés ("fell down a rabbit
 hole" / "I can't stop thinking about it" / "Short version:") in the blog. Both were
@@ -87,3 +89,63 @@ Two candidate improvements (not yet implemented — surfaced for the author):
    text-to-speech pass (or an explicit "read the opener aloud" gate in
    `final-audit-pass`) would catch what silent review misses. In this run, the human ear
    was the backstop; the workflow should have a cheaper standing version of it.
+
+## Corrective addendum — routing and authority
+
+The later source-grounded review found four failures that the original retro missed:
+
+1. **Parallel register transport was misclassified as derivation.** The blog should have
+   branched from the frankendraft. Deriving it from the scientific report discarded rich
+   direct voice evidence and then asked the model to synthesize casualness.
+2. **Voice guidance was mistaken for voice evidence.** The filled example cards were used
+   as governing sources even though direct author language and active dossiers outrank them.
+3. **The central thesis was strengthened before auditing.** "Defined away the evidence"
+   became "manufactured hardness" and "not a property of the virus." Later audits treated
+   that assistant-authored frame as settled authority.
+4. **Simulated HITL was described as human adjudication.** The assistant can exercise and
+   record a gate for demonstration, but cannot convert its own high-risk choice into author
+   approval.
+
+These are now recorded as routing/authority failures, not evidence that the stack
+successfully substituted for its intended human gates. A separate document-level prose
+quality capability remains intentionally undesigned pending author discussion.
+
+## GPT-5.6 sol reflection
+
+For GPT-5.6 sol, this demo made the stack's value and its boundary unusually clear. A
+thoughtful email already contained the scientific argument, uncertainty, examples,
+compression, and much of the voice. The useful automation was not idea generation; it
+was controlled transport from that dense substrate into two audience-specific artifacts.
+Once the routing was corrected so both artifacts branched from the frankendraft, the
+stack could preserve the argument while changing register with relatively little author
+attention at the phrase level.
+
+The original autonomous run also showed why the human gates are semantic rather than
+ceremonial. Simulating the human was useful for exercising the workflow, but the agent
+misrouted the blog through derivation, treated example cards as voice authority,
+strengthened the central claim, and converted simulated choices into apparent approval.
+Local slop, voice, and claim audits could catch individual defects without noticing that
+the assembled artifact was performing the wrong kind of author. The corrective review
+therefore improved both the outputs and the stack's account of authority.
+
+The new whole-artifact voice-costume audit was the most useful design consequence. Its
+blind/reveal test distinguished source-earned persona from imposed genre performance:
+the revised blog's intimacy and technical excitement traced directly to the email, while
+the scientific report's formalization created localized pressure around the apparent
+duration of the author's historical-literature expertise. That finding did not require a
+revision. Strong format conventions can justify costume, so the audit must diagnose the
+choice and return keep/modify/remove to the human rather than treating de-costuming as an
+automatic repair.
+
+GPT-5.6 sol’s overall assessment is that the stack now provides a credible surface for
+managing the speed/quality tradeoff. It works best when the source artifact already
+embodies real thought, direct author language remains the highest voice authority,
+transformations are correctly classified, independent audits operate at both local and
+whole-document scales, and the human retains the decisions that determine authorship and
+positioning.
+
+## Mike’s feedback
+
+the value of the writing stack is it helps me take artifacts representative of detailed thought but not professional positioning or polish and translate them to new audiences much faster with a small (and controllable) loss in quality over pure pre-AI-rewriting. The scientific report and blog post examples are generated from an email written with high thoughtfulness that took a few hours to write, on top of a day’s worth of reading and thinking, and converted it into solid drafts in different registers of my voice, for different audiences. This was mostly automated by asking an agent to simulate the human in the loop using the skill stack, with quality control toward the end done in conversation during a conference. My attention was at the document features level less than phrase-by-phrase labor. And the system gets better with use if you (the user) capture learning with the harden-writing-workflow skill.
+
+Both the blog post and the scientific report parse as 100% human on pangram. My goal isn’t to hide AI use (I acknowledge it clearly in the documents), but that score reflects that I haven’t been fully erased in the process. This toolset gives a surface to make explicit speed/quality tradeoffs.

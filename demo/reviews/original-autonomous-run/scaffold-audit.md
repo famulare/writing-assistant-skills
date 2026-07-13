@@ -13,7 +13,7 @@ onto the 6 sections with a clean claim → it's-old-news → data → mechanism-
 → dynamics → forecast progression. Setup precedes payoff throughout; data (§3)
 precedes interpretation (§5); the exceptions (§3) precede the account of how they
 were erased (§4). **No section requires a reorder.** Single-owner discipline is
-mostly respected (Kover, the reproducibility aside, the seasonal-waves detail, and
+mostly respected (Kotter, the reproducibility aside, the seasonal-waves detail, and
 the OPV2-cessation point each live in exactly one section).
 
 What remains is not architecture surgery but a handful of **beat-boundary
@@ -55,7 +55,7 @@ right section.
 | --- | --- | --- |
 | §1 | **Already coherent — polish only** | received-view → crack → thesis is well ordered. |
 | §2 | **Already coherent — polish only**, with the standardization-split discipline above | do not disclose §4's mechanism. |
-| §3 | **Already coherent — polish only** | normal pattern → Per → Kover → reproducibility caveat is the right beat order; do not leak "4 of 14". |
+| §3 | **Already coherent — polish only** | normal pattern → Per → Kotter → reproducibility caveat is the right beat order; do not leak "4 of 14". |
 | §4 | **Already coherent — polish only** | what standardization did → why reasonable → what was lost. Owns the mechanism + attrition. |
 | §5 | **Already coherent — polish only** | fitness assumption → pre-vaccine dynamics → trivalent collapse; Per stays a callback. |
 | §6 | **Already coherent — polish only** | why-not-now → what-changed → what-to-expect → landing; keep it forecast, not restatement. |

@@ -4,7 +4,7 @@ calls: "rewrite-block, minimal-edit"
 interface:
   display_name: "Compose Section"
   short_description: "Assemble a section: transport raw spans, fill holes"
-  default_prompt: "Use $compose-section to assemble a section span by span — raw spans via rewrite-block (transport), holes via bounded generate-from-sources, then a minimal-edit seam pass and a closing self-screen."
+  default_prompt: "Use $compose-section to assemble a section span by span — raw spans via rewrite-block (transport), holes via bounded generate-from-sources, then a minimal-edit seam pass and a closing self-screen. Record the fixed anchor, per-span route and provenance, and connective-tissue risk markers; without that record the result is incomplete."
 
 policy:
   allow_implicit_invocation: true

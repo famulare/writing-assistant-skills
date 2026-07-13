@@ -1,6 +1,6 @@
 ---
 name: render-word
-description: Export a markdown file to M365-styled .docx using pandoc and the captured Word defaults (Aptos fonts, Normal.dotm, 1-inch margins, US Letter).
+description: Export a markdown file to Gates Foundation–styled .docx using pandoc and the captured Word defaults (Aptos fonts, Normal.dotm, 1-inch margins, US Letter).
 tier: leaf
 role: transform
 calls: —
@@ -8,7 +8,7 @@ calls: —
 
 # Render Word
 
-A leaf skill for converting markdown → .docx. Pandoc applies the M365
+A leaf skill for converting markdown → .docx. Pandoc applies the Gates/M365
 Word styles from the reference file, preserving fonts, theme, and page setup
 exactly.
 
@@ -16,7 +16,7 @@ exactly.
 
 - Pandoc 3.5+ installed (e.g., `~/.local/bin/pandoc`)
 - Input: a markdown file
-- Reference template: included in the skill folder at `templates/word_default_reference.docx`
+- Reference template: included in the skill folder at `templates/gates_word_default_reference.docx`
 
 ## Procedure
 
@@ -26,14 +26,14 @@ The reference template is packaged with the skill. Locate it:
 
 ```bash
 SKILL_ROOT=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
-REF_DOC="$SKILL_ROOT/templates/word_default_reference.docx"
+REF_DOC="$SKILL_ROOT/templates/gates_word_default_reference.docx"
 ```
 
 Or, if running from a different context (e.g., through Claude Code), resolve from
 the symlink:
 
 ```bash
-REF_DOC="$(readlink -f ~/.claude/skills/render-word)/templates/word_default_reference.docx"
+REF_DOC="$(readlink -f ~/.claude/skills/render-word)/templates/gates_word_default_reference.docx"
 ```
 
 If the reference file is missing, warn the user and do NOT proceed silently.
@@ -144,7 +144,7 @@ Warn the user:
 
 ```
 ⚠ Reference template not found at: $REF_DOC
-(Expected: <repo>/templates/word_default_reference.docx)
+(Expected: <repo>/templates/gates_word_default_reference.docx)
 
 Proceeding without reference may produce incorrect styles.
 ```
@@ -169,7 +169,7 @@ requested) captured all entries.
 
 ## Notes
 
-- Pandoc handles markdown → .docx conversion; the reference file applies the M365
+- Pandoc handles markdown → .docx conversion; the reference file applies Gates
   Word defaults.
 - **Embedded images:** if the markdown references images with relative paths, use
   section 2.5 to compute `--resource-path` directories. Pandoc resolves relative

@@ -1,6 +1,6 @@
 ---
 name: run-section
-description: Run the per-section build loop end to end — refine the section's goals, then walk build-outline → frankendraft → compose-section → final-audit-pass → minimal-edit → harden-claim (late, on the drafted text) → fold to the ledgers. Use to drive a single section from a settled contract to hardened, audited prose. Granularity-aware: it skips stages by stakes rather than forcing the full chain. For the whole-draft claim-hardening sweep, use run-claim-harden; for one section's assembly only, use compose-section.
+description: "Run the per-section build loop end to end — refine the section's goals, then walk build-outline → frankendraft → compose-section → final-audit-pass → minimal-edit → harden-claim (late, on the drafted text) → fold to the ledgers. Use to drive a single section from a settled contract to hardened, audited prose. Granularity-aware: it skips stages by stakes rather than forcing the full chain. For the whole-draft claim-hardening sweep, use run-claim-harden; for one section's assembly only, use compose-section."
 tier: runbook
 role: orchestrate
 calls: build-outline, frankendraft, compose-section, final-audit-pass, minimal-edit, harden-claim

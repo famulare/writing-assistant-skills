@@ -3,10 +3,13 @@
 Per `skills/source-manifest`. Names everything that controls this task before drafting.
 
 ## Current instructions (first source of truth)
-- Produce a scientific research note and a derived casual blog post that carry the
+- Produce a scientific research note and a parallel casual blog post that carry the
   **full arc** of the raw email (see `raw_source_serotype-fuzziness.md`).
-- Exercise the full skill stack; assistant adjudicates as the human (see `decision-log.md`).
-- Invent nothing; preserve claim strength and hedges; keep redaction intact.
+- Exercise the full skill stack. For the historical autonomous run, the assistant
+  simulated the human gates; those calls are workflow test records, not author approval.
+- Invent nothing; preserve claim strength and hedges. Keep the raw source's
+  redaction intact; the author has explicitly restored Amy Rosenfeld's attribution
+  in the two public artifacts.
 
 ## Centered source language (the author's words that anchor the task)
 - The raw email is the sole authorial substrate. Load-bearing phrases the author centers:
@@ -20,14 +23,22 @@ Per `skills/source-manifest`. Names everything that controls this task before dr
 |---|---|---|
 | `raw_source_serotype-fuzziness.md` | primary authorial substrate (verbatim, redacted) | included |
 | Bodian 1949 (Am J Epidemiol / Am J Hyg vol 49, 1949) | cited historical evidence (Table 1/2, serotype scheme, Per) | **verify in Phase 3** |
-| Morgan 1949 | cited historical evidence (Kover symmetric cross-protection) | **verify in Phase 3** |
+| Morgan 1949 | cited historical evidence (Kotter symmetric cross-protection) | **verify in Phase 3** |
 | AJE vol 49 issue 2 (1949) | cited container for the above | **verify in Phase 3** |
 | MEF-1 = "Middle East Forces", 1942 | historical naming claim | **verify in Phase 3** |
 | "only 4 of 14 strains sequenced (1980s–90s)" | quantitative claim | **verify / mark if unverifiable** |
 
 ## Voice sources
-- `references/voice-card-example-scientific.md` → governs the scientific report.
-- `references/voice-card-example-casual.md` → governs the derived blog post.
+- `raw_source_serotype-fuzziness.md` → primary direct voice evidence for both transports,
+  especially the public blog.
+- `voice/voice-card.md` → compact active guidance, not standalone evidence.
+- `voice/dossiers/formal-papers.md` → formal-register evidence for the scientific note.
+- `voice/dossiers/public-personal-blog.md` and
+  `voice/dossiers/public-personal-scientific-essay.md` → public-blog evidence and
+  register-specific drift controls.
+
+The filled cards under `references/voice-card-example-*.md` demonstrate card structure;
+they are not governing voice evidence for this task.
 
 ## Evidence gaps (to resolve or mark)
 - Source figures/tables were **not extractable** from the PDF; all table/figure content

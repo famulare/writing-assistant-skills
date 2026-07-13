@@ -29,7 +29,7 @@ Only this core skill is installed globally — the always-on entry point. The re
 of the writing stack (`source-manifest`, `extract-argument`, `build-outline`,
 `frankendraft`, `scaffold-architecture-audit`, `rewrite-block`, `compose-section`,
 `minimal-edit`, `slop-scan`, `claim-audit`, `harden-claim`, `voice-audit`,
-`finalize-document-with-audit`) is pulled into a repo **on demand**, so it doesn't load in
+`voice-costume-audit`, `finalize-document-with-audit`) is pulled into a repo **on demand**, so it doesn't load in
 every session.
 
 On a real writing task, if the rest of the stack is not already available in this
