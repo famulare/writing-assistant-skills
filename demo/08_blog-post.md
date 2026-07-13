@@ -7,11 +7,11 @@ claim strengths from 06_claim-ledger.md; new casual framing (title, section head
 
 # We decided polio comes in three flavors. The old data weren't so sure.
 
-I fell down a rabbit hole in the 1949 literature last week and I can't stop thinking about it. Short version: we treat the three poliovirus serotypes as a hard fact of nature — type 1, type 2, type 3, clean boxes — and part of that hardness is something we manufactured in the 1950s. Read the papers from before the cleanup and the picture is a lot less black and white than the dogma I was handed.
+We treat the three poliovirus serotypes as a hard fact of nature — type 1, type 2, type 3, clean boxes — and part of that hardness is something we manufactured in the 1950s. I went digging in the 1949 literature last week, and the people who first sorted these viruses weren't nearly as sure the boxes were clean. Read the papers from before the cleanup and the story is fuzzier than the dogma I was handed.
 
 ## What they knew before they tidied it up
 
-Here's the thing that got me. Way back, they *knew* serotypes were fuzzy. Before anyone had a sequencer, people worked out what a "type" even was by measuring cross-immunity across a lot of monkeys — and they kept finding significant cross-immunity, which is exactly the thing the modern dogma waves off. We're only surprised now because of who taught whom. The virologists the eradication program inherited its framework from picked up the serotype dogma in the early 1980s or later — two to four generations downstream of the people, like Bodian, who first figured out what polio is, and a full generation after the assays got standardized. By the time it reached us, it had already been cleaned up.
+Here's the thing. Way back, they *knew* serotypes were fuzzy. Before anyone had a sequencer, people worked out what a "type" even was by measuring cross-immunity across a lot of monkeys — and they kept finding significant cross-immunity, which is exactly the thing the modern dogma waves off. We're only surprised now because of who taught whom. The virologists the eradication program inherited its framework from picked up the serotype dogma in the early 1980s or later — two to four generations downstream of the people, like Bodian, who first figured out what polio is, and a full generation after the assays got standardized. By the time it reached us, it had already been cleaned up.
 
 So I went back to the tables.
 
@@ -23,7 +23,7 @@ And then there are the strains that won't behave. The one that got me is "Per" �
 
 ## How we lost the plot
 
-Here's the part that gets me. This is old, small-N data, sure. But it comes from a moment when genetic diversity was high, population immunity across serotypes wasn't yet synchronized by trivalent vaccines, and — before we built the assays and algorithms specifically to remove this ambiguity. In the early '50s, cell culture and the three-type scheme were standardized together for vaccine development. Everyone stopped fussing with the old monkey-isolated strains and referenced everything to a handful of prototypes. Most of those other names just… vanish from the literature. Of the fourteen strains in Bodian's grouping, only four survived to be sequenced decades later. And honestly? If your job is to vaccinate against three types, none of the lost nuance matters. But in the canonizing of stylized facts, we lost the common knowledge that the story is fuzzy.
+And here's the kicker. This is old, small-N data, sure. But it comes from a moment when genetic diversity was high, when population immunity across serotypes wasn't yet synchronized by trivalent vaccines, and before we'd built the assays and algorithms specifically to remove this ambiguity. In the early '50s, cell culture and the three-type scheme were standardized together for vaccine development. Everyone stopped fussing with the old monkey-isolated strains and referenced everything to a handful of prototypes. Most of those other names just… vanish from the literature. Of the fourteen strains in Bodian's grouping, only four survived to be sequenced decades later. And honestly? If your job is to vaccinate against three types, none of the lost nuance matters. But in the canonizing of stylized facts, we lost the common knowledge that the story is fuzzy.
 
 ## Now the speculation (and it *is* speculation)
 

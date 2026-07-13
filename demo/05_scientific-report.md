@@ -8,7 +8,7 @@ and the §6 bookend. Everything else transports author-verbatim spans. -->
 
 ## The partition we trust
 
-We sort polioviruses into three serotypes and treat that partition as a hard fact of the virus. It is a useful fact, real enough to build vaccines on. But some of its hardness is manufactured. It is partly an artifact of how the field standardized its assays in the early 1950s. Read the literature from before that standardization and the picture is less black and white than the dogma today. They knew, way back, that serotypes were fuzzy; we are only surprised now because developments since the 1950s had largely defined away the evidence for it.
+We sort polioviruses into three serotypes and treat that partition as a hard fact of the virus. Part of that hardness, though, is manufactured — an artifact of how the field standardized its assays in the early 1950s, not a property of the virus itself. The partition is mostly real, real enough to build vaccines on; but the people who built it, working before that standardization, were blunter about its edges than we are. They knew serotypes were fuzzy. We are only surprised now because the developments since the 1950s had largely defined the evidence away.
 
 ## What the 1949 literature already knew
 
