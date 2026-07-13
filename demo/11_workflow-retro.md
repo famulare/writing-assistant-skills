@@ -60,3 +60,30 @@ All three candidates were folded into the skills:
    verification): neutralize charged phrasing before dispatch; on a block, reroute to a
    fallback model family on the first block instead of retrying identically, and
    cross-check the fallback.
+
+## Addendum — the read-aloud pass (post-publication)
+After the pieces were finalized and published, the author **listened to them read aloud**
+and flagged both introductions as weak. A rerun slop-scan
+(`reviews/slop-scan-report-v2.md`, `reviews/blog-slop-scan-v2.md`) confirmed it: the
+authored openers buried the thesis behind warm-up — concession-before-thesis plus a
+split, double-hedged thesis in the report; three stacked clichés ("fell down a rabbit
+hole" / "I can't stop thinking about it" / "Short version:") in the blog. Both were
+reworked and independently verified RESOLVED (see `decision-log.md` #20–21).
+
+The instructive part: **the first-pass audit had rated the report's opener clean (0 high).**
+The weakness was real but neither generic-phrase slop nor a claim error — it was
+*structural and audible*: a soft lead, a buried thesis, a concession landing before the
+turn. Silent, text-only review under-weighted it, and it was the author's **ear** that
+caught it.
+
+Two candidate improvements (not yet implemented — surfaced for the author):
+4. **Weight the lede and the hole-fill spans hardest.** `slop-scan` / `final-audit-pass`
+   should scrutinize the opening and the authored hole-fill spans (the highest-risk
+   connective tissue) more than evenly-distributed body prose, and check for *structural
+   opener tells* — concession-before-thesis, split/buried thesis, throat-clearing — not
+   only phrase-level slop.
+5. **Add a read-aloud / prosody check before finalize.** Some weaknesses surface on the
+   ear, not the page: a flat opener, a doubled "than", a repeated "got me" tic. A
+   text-to-speech pass (or an explicit "read the opener aloud" gate in
+   `final-audit-pass`) would catch what silent review misses. In this run, the human ear
+   was the backstop; the workflow should have a cheaper standing version of it.
